@@ -1,0 +1,241 @@
+/* ꞁȷ̀ɹ ʃᴜ ſɭᴜ }ʃɜꞇ */
+#b_header .b_searchboxForm, #uaanswer .b_searchboxForm {
+	background-color: #f0f0f0;	
+	border-radius: 16px 8px !important;
+	border: 1px solid #e0e0e0;
+	box-shadow: none;
+}
+#b_header {
+	border: none;
+}
+#b_header .b_scopebar, #b_results>.b_pag {
+	background-color: #f0f0f0;
+    	border-radius: 16px 8px;
+    	padding: 8px !important;
+	border: 1px solid #e0e0e0;
+    	width: max-content;
+    	margin-top: 8px;
+}
+.b_scopebar ul {
+	height: fit-content;
+}
+#b_header .b_scopebar .b_active, #b_results .b_pag a.sb_pagS_bp {
+	border-bottom: 2px solid #808080;
+   	padding: 4px;
+    	background-color: #e0e0e0;
+    	border-radius: 12px 4px;
+    	margin: 0;
+}
+.b_scopebar li::after {
+	height: 0;
+	margin: 0;
+}
+.b_scopebar>ul li {
+	padding: 4px;
+    	margin-inline: 8px;
+    	border-radius: 12px 4px;
+}
+#b_sh_btn {
+	background-color: #f0f0f0 !important;
+    	border-radius: 16px 8px;
+    	margin: 4px 0 0 8px;
+    	padding: 8px;
+    	border: 1px solid #e0e0e0 ! IMPORTANT;
+}
+.b_pag a.sb_bp {
+	margin-inline: 8px;
+    	border-radius: 12px 4px;
+}
+
+#sb_form #sw_as #sa_ul, #b_header #sw_as #sa_ul, #uaanswer #sw_as #sa_ul, #sw_as #sa_ul li:last-of-type {
+	background-color: #f0f0f0c0;
+    	border-radius: 24px 8px ! IMPORTANT;
+    	margin-block: 8px;
+    	backdrop-filter: blur(32px);
+    	padding: 8px;
+}
+
+/* j͑ʃɜ ſɭ,ᴜ */
+#b_content {
+	padding-top: 8px;
+}
+#b_content .b_underSearchbox {
+	background-color: #f0f0f0;
+    	border-radius: 16px 8px;
+    	width: max-content;
+    	margin: 0;
+	border: 1px solid #e0e0e0;
+
+}
+#b_content .b_underSearchbox .b_hList>li {
+	background-color: #e0e0e0;
+    	border-radius: 12px 4px;
+    	border: 1px solid #d0d0d0;
+}
+.b_underSearchbox~#b_tween {
+	margin-top: 8px;
+    	margin-bottom: -8px;
+}
+#b_tween {
+	margin-top: 8px;
+}
+#b_content .b_underSearchbox .b_label {
+	margin: 8px;
+}
+.mmsp {
+	background-color: #f0f0f0;
+	border-radius: 16px 8px;
+    	padding: 8px !important;
+    	border: 1px solid #e0e0e0;
+    	margin-top: 8px;
+}
+/* ꞁȷ̀ᴜ ɽ͑ʃ'ᴜ ɭʃᴜ ֭ſɭᴜȝ */
+#rfPane {
+	background-color: #f0f0f0;
+    	border-radius: 16px 8px;
+    	margin: 8px 16px;
+    	padding: 0;
+    	border: 1px solid #e0e0e0;
+}
+.touchQuery .carousel .carousel-controls, .touchQuery .carousel .items, .touchQuery .carousel .item, .touchQuery .carousel .carousel-controls .nav_left, .touchQuery .carousel .carousel-controls .nav_right {
+	background-color: #f0f0f0;
+}
+#rfPaneIn .touchQuery .carousel .item, #b_tq_header .suggestions-scroll-content .suggestion-item {
+	background-color: #e0e0e0;
+    	border-radius: 12px 4px;
+    	border: 1px solid #d0d0d0;
+}
+
+/* ſ̀ȷᴜ */
+#b_results .b_algo {
+	background-color: #f0f0f0;
+    	border-radius: 32px 8px;
+    	margin-block: 16px;
+    	padding: 16px;
+	border: 1px solid #e0e0e0;
+}
+#b_results #sp_recourse.b_lBottom, .b_caption, .b_moreLink, .b_footnote, .b_hList>li, #b_context h2, #b_context h2.b_entityTitle, #b_results .b_ad .b_factrow, #b_results .b_ad .b_bcfactrow, .b_expando h2, .b_no h1, .b_no h4, .b_no li, .b_prominentFocusLabel, .b_locStr, #b_results .b_lineclamp3 {
+	background-color: white;
+    	border-radius: 20px 4px;
+    	padding: 8px;
+    	margin-block: 8px;
+	border: 1px solid #e0e0e0;
+}
+#b_results .b_algo .b_vlist2col.b_deep {
+	background-color: white;
+    	border-radius: 20px 4px;
+    	padding: 8px;
+    	margin-bottom: 8px;
+	border: 1px solid #e0e0e0;
+}
+#b_results>.b_algo:not(.b_algoBorder):nth-child(n+5) .b_caption:not(.b_rich):not(.b_capmedia):not(.b_snippetgobig):not(.rebateContent) {
+	margin-inline: 0;
+}
+#b_results .b_algo .b_tpcn, #b_results .b_algo .b_tpcn>strong {
+	padding: 8px;
+}
+.bats {
+	height: 0;
+}
+/* ɭʃᴜ ſ͕ɭᴜȝ */
+.b_imagePair .inner img {
+	border-radius: 16px 4px;
+}
+
+/* ꞁȷ̀ꞇ }ʃᴜƽ ſ̀ȷᴜ */
+#b_results>li, #b_results>.b_ad {
+	background-color: #f0f0f0;
+    	border-radius: 32px 8px;
+    	padding: 16px !important;
+	margin-block: 16px;
+}
+.df_alaskcarousel #relatedQnAListDisplay.hybridAnsWrapper.hybridAnsWrapper2 .b_slidebar .slide, #df_listaa .df_topicqna.hybridAnsWrapper.hybridAnsWrapper2 .b_slidebar .slide {
+	background-color: #e0e0e0;
+    	border-radius: 28px 4px;
+	margin: 4px;
+}
+.df_alaskcarousel #relatedQnAListDisplay .b_slidebar {
+	padding-inline: 16px;
+}
+#b_results #df_listaa .b_vPanel .df_hd .b_primtxt, #b_results .b_ans #brsv3 h2 {
+	text-align: center;
+    	color: black;
+	margin: 0;
+	width: 94%;
+}
+#b_results #brsv3 .b_vList li {
+	width: 94%
+}
+#b_results #brsv3 .b_vList li a {
+	background-color: #e0e0e0;
+    	border-radius: 20px 4px;
+}
+.df_alaskcarousel.rqnaContainerwithfeedback, .df_alaskcarousel.rqnaContainer {
+	padding: 0;
+}
+.df_alaskcarousel #relatedQnAListDisplay.hybridAnsWrapper .df_ansatb, #df_listaa .df_topicqna.hybridAnsWrapper .df_ansatb {
+	margin: 0;
+}
+.df_alaskcarousel #relatedQnAListDisplay.hybridAnsWrapper .df_ansatb.df_ansfontlghybrid .qna_algo .b_algo, #df_listaa .df_topicqna.hybridAnsWrapper .df_ansatb.df_ansfontlghybrid .qna_algo .b_algo {
+	border-radius: 12px 4px;
+   	border: 1px solid #d0d0d0;
+    	padding: 8px;
+    	margin: 0;
+}
+#b_results li.b_ans.b_mop.b_mopb, #b_results li.b_ans.b_nonfirsttopb {
+	background-color: #f0f0f0;
+    	border-radius: 24px 8px;
+    	border: 1px solid #e0e0e0;
+}
+
+.pagereco_CBImageCard, .pagereco_CBTextCard, .iarnd .irpserp .irp .irpu {
+	background-color: #e0e0e0;
+    	border-radius: 20px 4px;
+	border: 1px solid #d0d0d0;
+}
+
+/* ſɭᴜc̗ ɭʃɜ }ʃꞇ */
+#b_context, #b_context #wpc_eif {
+	background-color: #f0f0f0;
+    	border-radius: 24px 8px;
+    	border: 1px solid #e0e0e0;
+}
+.spl_logoheader_desc {
+	background-color: white;
+    	border-radius: 20px 3px;
+	border: 1px solid #e0e0e0;
+    	padding: 16px;
+	margin: 16px;
+}
+.lite-entcard_3b30a .l_ecrd_headergrad {
+	border-radius: 20px 8px !important;
+    	margin: 8px;
+}
+.spl_logoheader .cico {
+	border-radius: 24px 8px;
+}
+
+/* }ʃɹ ɭʃᴜ j͑ʃɔ j͑ʃᴜꞇ */
+#b_bnp_bopc {
+	background-color: #ffffffc0;
+   	border-radius: 24px 8px;
+    	backdrop-filter: blur(32px);
+}
+.mtprt, #rs_lgw_list a {
+	background-color: #f0f0f0;
+    	border-radius: 16px 8px;
+    	box-shadow: none;
+	border: 1px solid #e0e0e0;
+}
+.b_idOpen #id_d, #bepfo, #id_hbfo.slide_down, #id_hbfo, .b_scopebar #b-scopeListItem-menu .b_sp_over_menu {
+	background-color: #f0f0f0c0;
+    	border-radius: 16px 8px;
+   	border: 1px solid #e0e0e0;
+	backdrop-filter: blur(32px);
+    	box-shadow: 0 8px 16px #00000024;
+}
+
+/* ꞁȷ̀ꞇ }ʃᴜƽ */
+b_footer {
+	background-color: transparent;
+}

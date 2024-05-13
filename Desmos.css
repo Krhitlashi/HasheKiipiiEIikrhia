@@ -1,0 +1,77 @@
+/* Header */
+.dcg-calculator-api-container .dcg-header {
+	background-color: #ffffffc0;
+    	color: black;
+    	backdrop-filter: blur(32px);
+    	border: none;
+    	box-shadow: 0 8px 16px #00000024;
+}
+.dcg-calculator-api-container .dcg-btn-white-outline, .dcg-calculator-api-container .save-btn-container .dcg-action-save.dcg-disabled:not(.dcg-btn-primary) {
+	color: black;
+    	border: 1px solid #e0e0e0;
+    	border-radius: 16px 8px;
+}
+.dcg-calculator-api-container .dcg-btn-blue, .dcg-calculator-api-container .dcg-btn-primary {
+   	border-radius: 16px 8px;
+}
+.dcg-calculator-api-container .dcg-header .dcg-header-btn {
+	color: black;
+}
+
+/* Calculator */
+.dcg-calculator-api-container .dcg-exppanel-outer {
+	margin: 8px;
+    	height: -webkit-fill-available !important;
+}
+.dcg-calculator-api-container .dcg-exppanel-outer .dcg-exppanel-container {
+	border-radius: 24px 8px;
+	background-color: #f0f0f0c0;
+	backdrop-filter: blur(32px);
+	border: 1px solid #e0e0e0;
+}
+.dcg-calculator-api-container .dcg-container .dcg-expression-top-bar {
+	background: transparent !important;
+	border: none;
+	margin-top: 8px;
+}
+.dcg-calculator-api-container .dcg-exppanel {
+	background-color: #e0e0e0c0 !important;
+    	border-radius: 20px 4px;
+    	margin: 8px;
+	border: 1px solid #d0d0d0;
+}
+.dcg-calculator-api-container .dcg-exppanel-outer .dcg-exppanel-container.dcg-add-shadow {
+	box-shadow: 0 8px 16px #00000024;
+}
+.dcg-calculator-api-container .dcg-container .dcg-expression-top-bar.dcg-expressions-scrolled {
+	box-shadow: none;
+}
+/* Inside */
+.dcg-calculator-api-container .dcg-exppanel .dcg-expressionitem {
+	margin: 8px;
+	background-color: #ffffffc0;
+	border: none;
+}
+.dcg-calculator-api-container .dcg-exppanel .dcg-expressionitem.dcg-selected, .dcg-calculator-api-container .dcg-exppanel .dcg-expressionitem.dcg-dragging, .dcg-calculator-api-container .dcg-exppanel .dcg-expressionitem {
+	border-radius: 20px 4px;
+}
+.dcg-calculator-api-container .dcg-exppanel .dcg-expressionitem.dcg-selected .dcg-tab, .dcg-calculator-api-container .dcg-exppanel .dcg-expressionitem.dcg-dragging .dcg-tab, .dcg-calculator-api-container .dcg-exppanel .dcg-expressionitem .dcg-tab {
+	padding: 16px;
+    	border-radius: 20px 4px;
+}
+.dcg-calculator-api-container .dcg-expressionitem.dcg-new-expression {
+	margin-top: 0;
+}
+
+/* Button */
+.dcg-calculator-api-container .dcg-btn-flat-gray {
+	background-color: #f0f0f0c0 !important;
+    	border-radius: 16px 8px;
+    	box-shadow: 0 8px 16px #00000024;
+    	backdrop-filter: blur(32px);
+}
+
+/* Pop Up */
+.dcg-calculator-api-container .dcg-notice--3d {
+	border-radius: 24px 8px; 
+}

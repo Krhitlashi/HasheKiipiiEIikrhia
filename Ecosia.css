@@ -1,0 +1,273 @@
+:root {
+	--ខេលេសៃ: #000;
+	--ខេលេសៃច្ហិ: #000000c0;
+	
+	--ជាងាធី: #181818;
+	--ពិសាធី: #282828;
+	--តិជាធី: #383838;
+	--តាវាធី: #484848;
+	--ព៏ធី: #585858;
+
+	--ជាងាធីច្ហិ: #181818c0;
+	--ពិសាធីច្ហិ: #282828c0;
+
+	--តិជាធី២អុមា: #404040;
+	--តាវាធី២អុមា: #505050;
+
+	--កាន្តុនី: #bdbdbd;
+
+	--កេភ: #fff;
+	--កេភ២: #e0e0e0;
+
+	--អិត្ផេពឺ: 32px 16px;
+	--អិត្ផេពឺចិ: 28px 12px;
+	--អិត្ផេ: 24px 8px;
+	--អិត្ផេចិ: 20px 4px;
+	--អិត្ផេមិ: 16px 8px;
+	--អិត្ផេមិចិ: 12px 4px;
+}
+
+@media (prefers-color-scheme: light) {
+	:root {
+		--ខេលេសៃ: #fff;
+		--ខេលេសៃច្ហិ: #ffffffc0;
+	
+		--ជាងាធី: #f4f4f4;
+		--ពិសាធី: #e4e4e4;
+		--តិជាធី: #d4d4d4;
+		--តាវាធី: #c4c4c4;
+		--ព៏ធី: #b4b4b4;
+	
+		--ជាងាធីច្ហិ: #f4f4f4c0;
+		--ពិសាធីច្ហិ: #e4e4e4c0;
+	
+		--តិជាធី២អុមា: #cccccc;
+		--តាវាធី២អុមា: #bcbcbc;
+
+		--កាន្តុនី: #424242;
+
+		--កេភ: #000;
+		--កេភ២: highlight;
+	}
+}
+
+:root {
+	--color-background-primary: var(--ខេលេសៃ) !important;
+}
+
+
+/* j͑ʃɜ ſɭ,ᴜ */
+.layout[data-v-ec35f412], .layout[data-v-4d37a5d1] {
+	background-color: var(--ខេលេសៃ);
+}
+.main-header .main-header__content {
+	background-color: transparent !important;
+	border: none !important;
+	margin: 0 8px;
+	padding: 12px 8px;
+}
+.main-header__search-navigation {
+	background-color: var(--ជាងាធី);
+  	border-radius: var(--អិត្ផេមិ);
+  	border: 1px solid var(--ពិសាធី);
+	margin: 12px 0 0 !important;
+	height: fit-content !important;
+}
+.search-navigation {
+	padding: 4px 8px !important;
+}
+.tab--highlighted, .tab--highlighted:focus-within, .tab--highlighted:hover {
+	background-color: var(--ពិសាធី);
+  	border-radius: var(--អិត្ផេមិចិ);
+	border: 1px solid var(--តិជាធី);
+}
+.tab--highlight-bar::after {
+	border-radius: 16px;
+ 	margin: 4px 12px;
+}
+.search-filters[data-v-9207412e], .search-filters[data-v-0593e0a5] {
+	background-color: var(--ជាងាធី);
+  	border-radius: var(--អិត្ផេមិ);
+  	align-self: center;
+  	width: -moz-available;
+	margin: 0 16px;
+  	border: 1px solid var(--ពិសាធី);
+}
+.carousel[data-v-901f4c15] {
+	background-color: var(--ជាងាធី);
+  	border-radius: var(--អិត្ផេមិ);
+  	border: 1px solid var(--ពិសាធី);
+  	margin: 8px 16px;
+	width: -moz-available;
+}
+.conversation__topbar[data-v-6d45bb43] {
+	background-color: var(--ជាងាធី);
+  	border-radius: var(--អិត្ផេមិ);
+  	border: 1px solid var(--ពិសាធី);
+  	margin: 0 16px 8px;
+  	width: -moz-available;
+}
+
+.mainline__footer[data-v-6e04786c], .main-footer[data-v-39cdbfc0] {
+	background-color: transparent;
+}
+.simplified-pagination[data-v-75a0b550] {
+	padding: 0;
+}
+
+/* ꞁȷ̀ɹ ʃᴜ ſɭᴜ }ʃɜꞇ */
+.search-form__input-wrapper[data-v-5e7ab0c6], .search-form__input-wrapper[data-v-8c8315a0], textarea[data-v-f10bcd2e]:disabled, textarea[data-v-f10bcd2e] {
+	background-color: var(--ជាងាធី);
+	border-radius: 16px 0px 0px 8px !important;
+	border: 1px solid var(--ពិសាធី);
+}
+.search-form__submit[data-v-5e7ab0c6], .search-form__submit[data-v-8c8315a0], .conversation__controls-button[data-v-6d45bb43]:disabled {
+	background-color: var(--ជាងាធី);
+	border-radius: 0px 8px 16px 0px !important;
+  	border: 1px solid var(--ពិសាធី);
+}
+.conversation__controls[data-v-6d45bb43] {
+	background-color: var(--ជាងាធី);
+  	border-radius: var(--អិត្ផេ);
+  	margin: 16px;
+  	width: -moz-available;
+  	border: 1px solid var(--ពិសាធី);
+  	padding: 16px;
+}
+
+/* ſ̀ȷᴜ */
+article, .related-queries__bottom[data-v-2de61d07], .footer-card[data-v-c9bfdf2c], .instant-answer {
+	background-color: var(--ជាងាធី) !important;
+  	border-radius: var(--អិត្ផេ) !important;
+  	margin: 12px 16px !important;
+	border: 1px solid var(--ពិសាធី);
+}
+.card {
+	border: none !important;
+}
+.web-result__description, .entity__description, .word-definitions__definition {
+	background-color: var(--ពិសាធី);
+  	border-radius: var(--អិត្ផេចិ);
+  	padding: 16px;
+  	margin-top: 8px;
+	border: 1px solid var(--តិជាធី);
+}
+.result__title[data-v-88dc8ad8], .result__info[data-v-88dc8ad8], .entity-titles__subtitle[data-v-d2e601bc], .entity-titles__title[data-v-d2e601bc] {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+.entity-footer[data-v-dcdc7c12] {
+	background-color: transparent;
+    	padding-inline: 24px;
+}
+.entity__header[data-v-65fbba95] {
+	margin: 0 0 -8px;
+}
+.snippet-card[data-v-7895140a] {
+	background-color: var(--ពិសាធី);
+  	border-radius: var(--អិត្ផេចិ);
+  	margin-block: 8px;
+  	border: 1px solid var(--តិជាធី);
+}
+.related-queries__link-bottom[data-v-2de61d07]:not(:last-child), .related-queries__link-bottom[data-v-2de61d07] {
+	background-color: var(--ពិសាធី);
+    border-radius: var(--អិត្ផេមិចិ);
+    border: 1px solid var(--តិជាធី);
+    margin-block: 8px;
+    padding: 16px;
+}
+.snippet__title[data-v-5fd12c70], .related-queries__header-bottom[data-v-2de61d07] {
+	text-align: center;
+}
+.message__assistant.standard-mode[data-v-4740d00a] {
+	background-color: var(--ពិសាធី);
+  	border-radius: var(--អិត្ផេមិ);
+  	padding: 16px;
+  	margin-inline: 8px;
+  	border: 1px solid var(--តិជាធី);
+}
+.dark .message__assistant.eco-mode[data-v-4740d00a] {
+	border-radius: var(--អិត្ផេមិ);
+  	padding: 16px;
+  	margin-inline: 8px;
+  	border: 1px solid var(--តិជាធី);
+}
+.dark .message__user[data-v-4740d00a] {
+	background-color: var(--ជាងាធី);
+  	border-radius: 8px 16px;
+  	padding: 16px;
+  	margin-inline: 8px;
+  	border: 1px solid var(--ពិសាធី);
+}
+.terms[data-v-32b7b792] {
+	background-color: var(--ជាងាធី) !important;
+  	border-radius: var(--អិត្ផេ);
+  	margin: 8px;
+  	border: 1px solid var(--ពិសាធី);
+}
+.conversation__list-container[data-v-6d45bb43] {
+	padding-bottom: 168px;
+}
+.web-result__description {
+	display: block !important;
+}
+.snippet[data-v-5fd12c70] {
+	visibility: collapse;
+	height: 0;
+  	padding: 0;
+}
+
+/* ſɟᴜ ſᶘɹ }ʃᴜ */
+.base-button--size-m[data-v-556d7610] {
+	border-radius: var(--អិត្ផេមិ);
+}
+.base-button--variant-solid-white[data-v-556d7610] {
+	background-color: var(--ជាងាធី);
+  	border: 1px solid var(--ពិសាធី);
+}
+.link-bubble[data-v-0d952418], .base-button--variant-outline[data-v-556d7610], .chip[data-v-ef30b18f], .base-button--disabled[data-v-556d7610], .base-button--disabled[data-v-556d7610]:active, .base-button--disabled[data-v-556d7610]:focus, .base-button--disabled[data-v-556d7610]:hover, .mode.standard[data-v-281b6869] {
+	background-color: var(--ពិសាធី);
+  	border-radius: var(--អិត្ផេមិចិ);
+  	border: 1px solid var(--តិជាធី);
+}
+
+/* ɭʃᴜ ֭ſɭᴜȝ */
+.snippet-card__thumbnail[data-v-7895140a] {
+	border-radius: var(--អិត្ផេមិចិ);
+ 	margin: 8px;
+}
+.thumbnail__image[data-v-21a67bba] {
+	border-radius: var(--អិត្ផេមិចិ);
+}
+.image-result__image[data-v-11597a62] {
+	border-radius: var(--អិត្ផេចិ);
+}
+
+/* }ʃɹ ɭʃᴜ j͑ʃɔ */
+.panel__content[data-v-7d5ec52e], .personal-counter-interim-dropdown[data-v-7c0737e1], .dark .listbox[data-v-281b6869], .banner, .dropdown {
+	background-color: var(--ពិសាធីច្ហិ) !important;
+  	border-radius: var(--អិត្ផេ);
+  	margin: 8px;
+ 	padding: 8px;
+  	border: 1px solid var(--តិជាធី);
+  	backdrop-filter: blur(32px);
+}
+.banner {
+	width: -moz-available !important;
+	margin: 16px;
+}
+.list-item[data-v-00a2d1e7] {
+	width: 90%;
+  	border-radius: var(--អិត្ផេមិ);
+  	margin-block: 4px;
+}
+
+
+@media (prefers-color-scheme: light) { 
+	.web-result__description, .entity__description, .word-definitions__definition {
+		background-color: var(--ខេលេសៃច្ហិ);
+		border: 1px solid var(--ពិសាធី);
+	}
+}
+

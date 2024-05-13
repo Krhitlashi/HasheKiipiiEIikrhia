@@ -1,0 +1,371 @@
+:root {
+	--ខេលេសៃ: #000;
+	--ខេលេសៃច្ហិ: #000000c0;
+	
+	--ជាងាធី: #181818;
+	--ពិសាធី: #282828;
+	--តិជាធី: #383838;
+	--តាវាធី: #484848;
+	--ព៏ធី: #585858;
+
+	--ជាងាធីច្ហិ: #181818c0;
+	--ពិសាធីច្ហិ: #282828c0;
+
+	--តិជាធី២អុមា: #404040;
+	--តាវាធី២អុមា: #505050;
+
+	--កាន្តុនី: #bdbdbd;
+
+	--កេភ: #fff;
+	--កេភ២: #c4c4c4;
+
+	--អិត្ផេពឺ: 32px 16px;
+	--អិត្ផេពឺចិ: 28px 12px;
+	--អិត្ផេ: 24px 8px;
+	--អិត្ផេចិ: 20px 4px;
+	--អិត្ផេមិ: 16px 8px;
+	--អិត្ផេមិចិ: 12px 4px;
+}
+@media (prefers-color-scheme: light) {
+	:root {
+		--ខេលេសៃ: #fff;
+		--ខេលេសៃច្ហិ: #ffffffc0;
+	
+		--ជាងាធី: #f4f4f4;
+		--ពិសាធី: #e4e4e4;
+		--តិជាធី: #d4d4d4;
+		--តាវាធី: #c4c4c4;
+		--ព៏ធី: #b4b4b4;
+	
+		--ជាងាធីច្ហិ: #f4f4f4c0;
+		--ពិសាធីច្ហិ: #e4e4e4c0;
+	
+		--តិជាធី២អុមា: #cccccc;
+		--តាវាធី២អុមា: #bcbcbc;
+
+		--កាន្តុនី: #424242;
+
+		--កេភ: #000;
+		--កេភ២: highlight;
+	}
+}
+
+html {
+	background-color: var(--ខេលេសៃ);
+}
+
+/* Side #5b3e91 */
+body.primary-nav-expanded .ic-app-header {
+	margin: 8px;
+	height: -webkit-fill-available;
+	border-radius: 24px 8px;
+	background-color: var(--ជាងាធី);
+	border: 1px solid var(--ពិសាធី);
+}
+.ic-app-header__menu-list li {
+	margin: 8px;
+}
+.ic-app-header__menu-list-link:not(.ic-app-header__menu-list-link--nav-toggle) {
+	border-radius: 12px 4px;
+}
+body.primary-nav-expanded .menu-item__text {
+	color: black !important;
+}
+.ic-app-header__menu-list-link .ic-icon-svg {
+	fill: black !important;
+}
+.ic-app-header__menu-list-item.ic-app-header__menu-list-item--active .ic-app-header__menu-list-link {
+	background-color: var(--ពិសាធី);
+	border: 1px solid var(--តិជាធី);
+}
+.ic-app-header__logomark-container {
+	border-radius: 20px 4px;
+    margin: 8px;
+    width: auto;
+	padding: 4px
+}
+body.primary-nav-expanded .ic-app-header__logomark {
+	height: 80px;
+}
+
+/* Account */
+.css-1gto5tw-tray {
+	background-color: var(--ខេលេសៃច្ហិ);
+    backdrop-filter: blur(32px);
+    border-radius: 24px 8px;
+    box-shadow: 0 8px 16px #00000024;
+}
+
+/* Heading */
+#breadcrumbs>ul {
+	width: max-content;
+}
+.ic-app-nav-toggle-and-crumbs {
+	border: none;
+}
+.ic-app-course-nav-toggle i[class*=icon-], .ic-app-course-nav-toggle i[class^=icon-] {
+	color: black;
+}
+
+/* Body */
+body.course-menu-expanded:not(.ic-no-flex-layout):not(.embedded):not(.is-inside-submission-frame) .ic-Layout-columns {
+	margin-left: 224px;
+}
+.quiz-header h1, .quiz-header h2 {
+	text-align: center;
+}
+h3, .h3 {
+	text-align: center;
+}
+
+/* Side Body */
+.with-left-side #left-side {
+	background-color: var(--ជាងាធី);
+    margin: 8px;
+    border-radius: 24px 8px;
+	border: 1px solid var(--ពិសាធី);
+    height: fit-content;
+}
+.ic-sticky-frame {
+	padding: 8px !important;
+}
+.list-view>ul>li>a, .list-view>nav>ul>li>a, .list-view>div>nav>ul>li>a {
+	color: black;
+    margin: 8px;
+    background-color: var(--ពិសាធី);
+    border-radius: 12px 4px !important;
+	border: 1px solid var(--តិជាធី);
+	padding: 8px;
+	text-align: center;
+}
+.list-view a.active {
+	background-color: #d0d0d0;
+}
+.ic-app-course-menu #section-tabs-header-subtitle {
+	padding: 12px;
+}
+.nav-badge {
+	background-color: var(--ic-brand-global-nav-bgd);
+	border-radius: 8px 4px;
+}
+
+/* Modules */
+.context_module {
+	background: var(--ជាងាធី);
+    border-radius: 24px 8px;
+	border: 1px solid var(--ពិសាធី);
+}
+.item-group-condensed .ig-header {
+	background-color: transparent;
+    	border: none;
+    	margin: 0;
+    	padding: 8px 16px
+}
+.context_module .ig-row {
+	margin-inline: 16px;
+    margin-block: 8px;
+    border-radius: 20px 4px;
+    background-color: var(--ពិសាធី);
+	border: 1px solid var(--តិជាធី);
+}
+.context_module_item.context_module_item_hover {
+	background-color: transparent;
+}
+
+/* Quiz */
+.quiz-header {
+	border: none;
+}
+#quiz_show ul#quiz_student_details {
+	background-color: var(--ជាងាធី);
+    border-radius: 24px 8px;
+	border: 1px solid var(--ពិសាធី);
+    width: auto;
+    border: none;
+}
+#quiz_show ul#quiz_student_details li {
+	display: flex;
+    flex-direction: row;
+	justify-content: space-between;
+    text-align: center;
+	background-color: var(--ពិសាធី);
+    margin: 8px;
+    padding: 8px 16px;
+    border-radius: 12px 4px;
+	border: 1px solid var(--តិជាធី);
+}
+#quiz_show ul#quiz_student_details li .value {
+	padding: 0;
+}
+#quiz_show .description.teacher-version {
+	border-radius: 24px 8px;
+    background-color: var(--ជាងាធី);
+    border: 1px solid var(--ពិសាធី);
+}
+#quiz-submission-version-table {
+	background-color: var(--ជាងាធី);
+    border-radius: 24px 8px;
+    padding: 8px 16px 16px 16px;
+	border: 1px solid var(--ពិសាធី);
+}
+:not(.user_content)>table, .user_content table:not([cellspacing]) {
+	background-color: var(--ពិសាធី);
+    border-radius: 20px 4px;
+	border: 1px solid var(--តិជាធី);
+}
+#questions.assessing .question_holder .question, #questions.assessment_results .question_holder .question {
+	margin: 8px 0;
+	background-color: var(--ជាងាធី);
+    border-radius: 24px 8px;
+	border: 1px solid var(--ពិសាធី);
+	padding: 8px;
+}
+.question .header {
+	background-color: transparent !important;
+	border: none;
+	margin: 8px;
+	padding: 8px 16px !important;
+}
+.question .text {
+	background-color: white;
+    	margin: 8px;
+	border-radius: 20px 4px;
+}
+
+/* Submission */
+.ui-tabs .ui-tabs-panel {
+	background-color: var(--ជាងាធី);
+   	border-radius: 24px 8px;
+	border: 1px solid var(--ពិសាធី);
+    padding: 16px;
+    margin: 8px;
+    border: none;
+}
+table.formtable td {
+	padding: 8px !important
+}
+
+/* Button */
+.btn, .Button, .ui-button {
+	border-radius: 16px 8px;
+}
+.form-actions {
+	background-color: var(--ជាងាធី);
+    border-radius: 24px 8px;
+	border: 1px solid var(--ពិសាធី);
+    border: none;
+}
+
+/* Alert */
+#quiz_show .alert {
+	border-radius: 16px 8px;
+}
+
+
+/* Dashboard */
+.ic-DashboardCard__box__container {
+	margin: 0;
+}
+.ic-DashboardCard {
+	background-color: var(--ជាងាធី);
+	border-radius: 24px 8px;
+	border: 1px solid var(--ពិសាធី);
+	box-shadow: none;
+	margin: 12px;
+}
+.ic-DashboardCard:hover {
+	background-color: var(--ពិសាធី);
+	border: 1px solid var(--តិជាធី);
+	box-shadow: none !important;
+}
+.ic-DashboardCard__header_content {
+	background-color: transparent;
+}
+.ic-Dashboard-header__layout {
+	background-color: transparent;
+	border: none;
+    backdrop-filter: blur(32px);
+}
+
+/*Menu*/
+.css-1dndbkc-menu, .css-1cnxpbl-view-panel__content, .css-njggem-view-tabs__tabList, .al-options.ui-state-open {
+	background-color: --ជាងាធីច្ហិ !important;
+    backdrop-filter: blur(32px);
+    border-radius: 16px 8px !important;
+	border: 1px solid var(--ពិសាធី);
+    box-shadow: 0 8px 16px #00000024;
+	margin-bottom: 8px;
+}
+.css-dvua1q-view--block-contextView__content {
+	background: none !important;
+   	border: none !important;
+    box-shadow: none !important;
+}
+.css-ktk67h-menuItemGroup__label, .css-19w3yaf-menuItem, .ColorPicker__Container {
+	background: none !important;
+}
+.css-1bwojnz-view-tab {
+	border-radius: 16px 8px;
+}
+
+/* Right Side */
+#right-side {
+	background-color: var(--ជាងាធី);
+    border-radius: 24px 8px;
+	border: 1px solid var(--ពិសាធី);
+    padding: 16px;
+}
+#right-side .todo-list-header, #right-side .shared-space {
+	margin-top: 0;
+    	text-align: center;
+	border: none;
+}
+.css-vftc6n-view--block-list, #right-side .right-side-list {
+	background-color: var(--ពិសាធីច្ហិ);
+    margin: 0;
+    padding: 16px;
+    border-radius: 20px 4px;
+	border: 1px solid var(--តិជាធី);
+    margin-bottom: 8px;
+}
+#right-side .events_list .event-details:after, #right-side .events_list .todo-details:after, #right-side .to-do-list .event-details:after, #right-side .to-do-list .todo-details:after {
+	background: transparent;
+}
+
+
+/* Announcements */
+.topic {
+	background-color: var(--ជាងាធី);
+    border-radius: 32px 16px;
+	border: 1px solid var(--ពិសាធី);
+    margin: 8px;
+}
+.message_wrapper {
+	background-color: var(--ពិសាធី);
+    border-radius: 28px 12px;
+	border: 1px solid var(--តិជាធី);
+}
+.topic .entry-content {
+	border: none;
+}
+.toolbarView, .toolbarView .headerBar {
+	background-color: transparent;
+	border: none;
+}
+.toolbarView .headerBar {
+	padding-top: 0;
+}
+
+
+/* PDF */
+.ef-file-preview-header {
+	background-color: #00000000 !important;
+    	backdrop-filter: blur(32px);
+}
+.ViewerControls {
+	background-color: #181818e0;
+    	backdrop-filter: blur(32px);
+}
+.AnnotationControlButton, body {
+	background-color: transparent !important;
+}

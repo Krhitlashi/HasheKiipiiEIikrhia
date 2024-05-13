@@ -1,0 +1,205 @@
+#banner-2de18588-51e8-48f9-9f46-aa68d3d5c2f0 .ceng-banner_inner {
+    background-image: none !important;
+}
+.ceng-banner--default {
+    width: 0 !important;
+}
+
+/* Side */
+.css-pvs3h2, .css-pvs3h2 {
+	border-radius: 24px 8px;
+    	background-color: #f0f0f0;
+	margin: 8px;
+    	height: -webkit-fill-available;
+}
+.css-1nsksh3, .css-1nsksh3 {
+	background-color: transparent;
+	border: none;
+}
+.css-bxwf1q, .css-13cpb10, .css-18tokwt-StyledLink, .css-yazodk-BaseStyledButton, .css-1e8bsn, .css-18tokwt-StyledLink, .css-yazodk, .css-bxwf1q, .css-ww2o90, .css-1fyjp9p {
+	color: black !important;
+}
+.css-ww2o90 > svg {
+	fill: black;
+}
+/* Arrow */
+.css-qft0d1, .css-131vgsv-BaseStyledButton {
+	border-radius: 20px 4px;
+    	border: none;
+    	margin: 8px;
+   	background-color: #c0c0c0;
+	width: auto !important;
+	height: auto !important;
+}
+/* Collapsed */
+.css-1yugtk8 {
+	background-color: #f0f0f0c0 !important;
+    	backdrop-filter: blur(32px);
+}
+.css-1fcgia0, .css-9xmypl {
+	background-color: #f0f0f0;
+}
+
+/* Menu Courses */
+.css-1yeria3 {
+	background-color: #f0f0f0;
+    	border-radius: 24px 8px;
+}
+.css-10etfbf {
+	border-radius: 20px 4px;
+}
+.css-dwce1g-LinkStyledAsButton-BaseStyledButton {
+	background-color: #e0e0e0;
+    	border-radius: 16px 4px;
+    	border: none;
+    	color: black;
+}
+.css-iwn0ml-BaseStyledButton-StyledIconButton {
+	background-color: #e0e0e0;
+    	border-radius: 12px 4px;
+    	border: none;
+    	color: black;
+}
+
+/* Pop Up */
+.QSIPopOver div, .QSIPopOver dl, .QSIPopOver dt, .QSIPopOver dd, .QSIPopOver ul, .QSIPopOver ol, .QSIPopOver li, .QSIPopOver h1, .QSIPopOver h2, .QSIPopOver h3, .QSIPopOver h4, .QSIPopOver h5, .QSIPopOver h6, .QSIPopOver pre, .QSIPopOver form, .QSIPopOver fieldset, .QSIPopOver textarea, .QSIPopOver p, .QSIPopOver blockquote, .QSIPopOver th, .QSIPopOver td {
+	border-radius: 24px 8px !important;
+    	background-color: #ffffffc0 ! IMPORTANT;
+    	backdrop-filter: blur(32px);
+}
+
+
+/* Webassign */
+
+/* Header */
+.css-w71g3k {
+	border-radius: 16px 8px;
+    	margin: 8px;
+    	background-color: #f0f0f0;
+}
+.css-l1j587 {
+	background-color: #f0f0f0;
+    	border-radius: 16px 8px;
+}
+.css-15ism5v > div {
+	border-radius: 12px 4px;
+    	margin-inline: 3px;
+}
+
+/* Top Section */
+.css-ofq7zs {
+	margin-bottom: 8px;
+}
+.css-ofq7zs > div:first-child, .css-2ckidu, .css-ksgbli {
+	background-color: #f0f0f0;
+        border-radius: 24px 8px;
+        margin: 8px;
+}
+.css-1xtak44, .css-tk5eh5 {
+	background-color: transparent;
+	border: none;
+}
+.css-11r6p10, .css-1d5sdls, .css-5ijub1 {
+	background-color: white;
+    	border-radius: 20px 4px;
+    	margin: 8px;
+}
+
+/* Button */
+#webAssign input, .css-ubioip-BaseStyledButton {
+	background: none;
+	background-color: #e0e0e0 !important;
+    	border-radius: 12px 4px;
+    	padding: 8px;
+	border: 1px solid #d0d0d0;
+	color: black
+}
+fieldset, img {
+	border-radius: 8px 4px;
+}
+
+/* Sections */
+.waQBox>.qUtility>.standard, .waQBox>.qUtility>.crop {
+	border-radius: 24px 8px;
+    	border: 1px solid #e0e0e0;
+    	margin-block: 8px;
+}
+.waQBox>.qUtility>.qButtons {
+	border-radius: 24px 8px;
+    	border: 1px solid #e0e0e0;
+}
+.css-1enip6m, .css-1f39x28 {
+	background-color: #f0f0f0;
+    	border-radius: 24px 8px;
+    	padding: 8px;
+}
+.css-21xg7l-BaseStyledButton, .mq-editable-field, .mq-math-mode .mq-editable-field {
+	border-radius: 12px 4px;
+}
+
+/* Selection */
+.qContent .wa1-tabbox {
+	border-radius: 24px 8px;
+    	border: 1px solid #d7d2c8;
+}
+.int3dgraph:not(.header) {
+	border-radius: 12px 4px;
+	background-color: #f0f0f0;
+}
+.int3dgraph > .header {
+	height: 24px;
+    	background-color: transparent;
+    	border: none;
+}
+.qContent .wa1-tabbox label.wa1-tablabel, .qContent .wa1-tabbox input[name$="tab"]:checked + label.wa1-tablabel {
+	border-radius: 12px 4px;
+}
+.waQBox>.qAlert {
+	border-radius: 24px 8px;
+}
+
+/* Practice Another */
+.css-mrxdza-StyledCard.css-mrxdza-StyledCard {
+	background-color: #f0f0f0;
+    	border-radius: 24px 8px !important;
+    	margin: 8px;
+}
+.css-1ynjhbw {
+	border-radius: 20px 4px !important;
+}
+
+/* CalcPad */
+.mathContainer, .mathContainer .mathContent .mathPanel .buttonPanel {
+	background-color: #f0f0f0c0;
+    	border-radius: 16px 8px;
+    	margin: 8px;
+    	border: 1px solid #e0e0e0;
+   	backdrop-filter: blur(32px);
+}
+.mathContainer .mathContent .mathPanel .mathPanelTitle {
+	width: 64px;
+    	background: none;
+    	background-color: #e0e0e0 !important;
+    	border-radius: 8px 3px;
+    	border: 1px solid #d0d0d0;
+}
+.mathContainer .mathContent .mathPanel .buttonPanel a.operation, .mathContainer .mathContent .mathPanel .buttonPanel a.singleRowArrow {
+	background: none;
+    	background-color: #e0e0e0 !important;
+    	border-radius: 8px 3px;
+    	border: 1px solid #d0d0d0;
+}
+.mathContainer .mathContent .mathPanel .activePanel {
+	margin: 0;
+    	padding: 0;
+    	width: 68px !important;
+    	border-right: 2px solid black !important;
+}
+
+/* Alert */
+.qContent .cap-btm-rit figcaption .desc {
+	background-color: #f0f0f0c0;
+    	border-radius: 24px 8px;
+    	padding: 16px;
+    	backdrop-filter: blur(32px);
+}

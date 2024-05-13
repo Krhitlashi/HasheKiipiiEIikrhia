@@ -1,0 +1,127 @@
+/* ſɟᴜ ɭʃᴜ ŋᷠᴜ */
+html[darker-dark-theme], .mobile-topbar-header-background {
+	background-color: #000 !important;
+}
+#player-control-overlay.fadein .player-controls-background {
+	background: #00000080 !important;
+}
+
+/* j͑ʃɜ ſɭ,ᴜ */
+.mobile-topbar-header {
+	box-shadow: none;
+}
+.mobile-topbar-logo.ringo-logo, .logo-in-player.ringo-logo, .mobile-topbar-header-sign-in-button {
+	visibility: collapse;
+}
+
+/* j͐ʃᴜ ſ͕ɭᴜƴ */
+.YtProgressBarProgressBar {
+	backdrop-filter: blur(32px);
+}
+.YtProgressBarProgressBarBackground {
+	border-radius: 65536px;
+}
+.YtProgressBarProgressBarBackground {
+	--yt-progress-bar-height: 8px !important;
+	height: 8px !important;
+	opacity: 0.2 !important;
+}
+.YtProgressBarProgressBarLine {
+	height: 8px !important;
+}
+.YtProgressBarProgressBarPlayed {
+	background-color: white !important;
+  	border-radius: 65536px;
+	height: 8px !important;
+}
+.YtProgressBarProgressBarPlayheadDot {
+	background-color: #e0e0e0 !important;
+  	height: 4px !important;
+  	width: 4px !important;
+  	border: 1px solid #d0d0d0;
+	margin-left: -6px;
+}
+.YtProgressBarProgressBarLoaded, .YtProgressBarProgressBarHovered {
+	height: 8px !important;
+  	border-radius: 65536px;
+	opacity: 0.2 !important;
+}
+
+/* ſ̀ȷᴜ */
+.slim-video-metadata-header {
+	border-radius: 24px 8px;
+  	margin: 16px !important;
+ 	width: -moz-available !important;
+}
+.yt-spec-bottom-sheet-layout__bottom-sheet-renderer-container {
+	background-color: #282828c0;
+  	border-radius: 24px 8px;
+  	border: 1px solid #383838;
+  	margin: 16px;
+  	padding: 16px;
+}
+h1, h2, h3, h4 {
+	margin: 0 0 16px;
+}
+
+/* ſɟᴜ ſᶘɹ }ʃᴜ */
+.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--tonal {
+	background-color: #282828;
+  	border-radius: 16px 8px !important;
+ 	border: 1px solid #383838;
+}
+.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--segmented-start::after {
+	background: none;
+}
+ytm-item-section-renderer {
+	border: none !important;
+}
+ytm-select {
+	background-color: #282828 !important;
+  	border-radius: 16px 4px !important;
+	border: 1px solid #383838 !important;
+  	padding-inline: 16px;
+}
+.c3-material-toggle-button-track {
+	background-color: #282828 !important;
+  	border-radius: 8px 4px !important;
+  	border: 1px solid #383838;
+}
+.c3-material-toggle-button-circle {
+	height: 12px !important;
+  	width: 12px !important;
+  	margin: 4px;
+  	background-color: white !important;
+}
+ytm-custom-control .player-controls-middle .modern-tap-target-ui .icon-button {
+	border-radius: 16px 8px !important;
+  	background-color: #282828c0;
+  	border: 1px solid #383838;
+  	backdrop-filter: blur(32px);
+}
+.yt-spec-button-shape-next--size-m {
+	background-color: #383838c0 !important;
+  	border-radius: 16px 8px !important;
+  	border: 1px solid #484848 !important;
+	backdrop-filter: blur(32px);
+}
+.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--text {
+	border-radius: 16px 8px;
+}
+.YtDislikeButtonViewModelHost, .yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--text, .fullscreen-watch-next-entrypoint-wrapper {
+	visibility: collapse !important;
+  	width: 0;
+}
+
+/* }ʃɹ ɭʃᴜ j͑ʃɔ */
+.dialog {
+	background-color: #181818c0 !important;
+  	border-radius: 24px 8px !important;
+  	border: 1px solid #282828 !important;
+  	backdrop-filter: blur(32px);
+}
+.unified-share-url-input {
+	background-color: #383838;
+  	border-radius: 20px 8px;
+  	border: 1px solid #484848;
+}
