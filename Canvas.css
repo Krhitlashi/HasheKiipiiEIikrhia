@@ -141,8 +141,13 @@ h3, .h3 {
 	padding: 8px;
 	text-align: center;
 }
+.list-view>ul>li>a:hover, .list-view>nav>ul>li>a:hover, .list-view>div>nav>ul>li>a:hover {
+	background-color: var(--តិជាធី);
+}
 .list-view a.active {
-	background-color: #d0d0d0;
+	background-color: var(--តិជាធី);
+	border: 1px solid var(--តាវាធី);
+	border-left: 2px solid var(--កេភ);
 }
 .ic-app-course-menu #section-tabs-header-subtitle {
 	padding: 12px;
@@ -170,6 +175,9 @@ h3, .h3 {
     border-radius: var(--អិត្ផេចិ);
     background-color: var(--ពិសាធី);
 	border: 1px solid var(--តិជាធី);
+}
+.context_module .ig-row:hover {
+	background-color: var(--តិជាធី);
 }
 .context_module_item.context_module_item_hover {
 	background-color: transparent;
