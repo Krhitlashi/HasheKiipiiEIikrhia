@@ -68,6 +68,9 @@ body.primary-nav-expanded .ic-app-header {
 .ic-app-header__menu-list-link:not(.ic-app-header__menu-list-link--nav-toggle) {
 	border-radius: var(--អិត្ផេមិចិ);
 }
+.ic-app-header__menu-list-link:not(.ic-app-header__menu-list-link--nav-toggle):hover {
+	background-color: var(--ពិសាធី) !important;
+}
 body.primary-nav-expanded .menu-item__text {
 	color: black !important;
 }
