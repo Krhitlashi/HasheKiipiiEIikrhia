@@ -56,6 +56,9 @@ body {
 .ml-3 {
 	margin-left: 0 !important
 }
+.px-3 {
+	padding: 0 !important;
+}
 
 /* j͑ʃɜ ſɭ,ᴜ */
 #repository-container-header {
@@ -63,7 +66,7 @@ body {
 	margin: 0 16px;
 	padding-top: 0 !important;
 }
-.Header-old {
+.Header-old, .color-bg-subtle, .bgColor-muted {
 	background-color: transparent !important;
 }
 .f4.mb-3 {
@@ -102,7 +105,7 @@ body {
   	padding: 16px 16px 8px;
   	margin-bottom: 12px;
 }
-.iXWA-dl {
+.iXWA-dl, .cAQuiW {
 	background-color: var(--ជាងាធី);
   	border-radius: var(--អិត្ផេ);
  	border: 1px solid var(--ពិសាធី);
