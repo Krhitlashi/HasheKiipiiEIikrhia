@@ -69,6 +69,7 @@
   --bg: #00000000 !important;
   --stroke-default: #00000000 !important;
   --border-bottom: #00000000 !important;
+  --body-background-fill: #00000000 !important;
 
 	--text-primary: var(--កេភ) !important;
   --text-secondary: var(--កេភ២) !important;
@@ -102,7 +103,7 @@ html, #main, #site-main
   , .overlay-enabled, .mw-body, .cnotice, .post-content, .last-modified-bar, .minerva-footer, .header-container.header-chrome:not(.position-fixed), .header-container.header-chrome
   , .HCkIf
   , .w3-main
-  , .container
+  , .container:not(iframe)
   , .page-wrapper
   , #leftmenuinner
   , #lia-body.ForumTopicPage .lia-content .lia-quilt-row.lia-quilt-row-hero .lia-quilt-column-hero
@@ -119,11 +120,11 @@ main, header, nav, footer, section, th, tr, h2, form, td > div
   , .mobile-community-bar--with-background::after, main.play section.preview #play-console > span, main.play section.preview #play-console ul
   , .button-wrap
   , .Main
-  , .container, .mw-parser-output .container-header, .minerva-search-form, .global-navigation, .global-navigation__bottom, .global-navigation__top, .mwe-popups-container, .citizen-body-header--sticky .mw-body-header::before, .sidebar.is-expanded .backdrop
+  , .container:not(iframe), .mw-parser-output .container-header, .minerva-search-form, .global-navigation, .global-navigation__bottom, .global-navigation__top, .mwe-popups-container, .citizen-body-header--sticky .mw-body-header::before, .sidebar.is-expanded .backdrop
   , ul.forums
   , #pagetop, .w3-white
   , .sidebar-filter-container
-  , .bg-white
+  , .bg-white:not(iframe)
   , .submenu
   , .mzp-c-callout.t-developer, .mzp-c-callout.t-nightly
   , .account__section-headline, .notification__filter-bar, .columns-area__panels__pane--navigational .navigation-panel, .layout-single-column .ui__header, .account__header, .column-header__back-button, .column-header__button, .column-header__button.active, .column-inline-form, .column > .scrollable, .getting-started, .regeneration-indicator
@@ -145,7 +146,8 @@ main, header, nav, footer, section, th, tr, h2, form, td > div
   , div.main_container
   , .inner_column
   , .mdl, .gnb-bar
-  , .site-wrapper, .js-site-wrapper {
+  , .site-wrapper, .js-site-wrapper
+  , .from-gray-50-to-white, .from-gray-50-to-white:hover {
 	background: none;
 	background-color: transparent !important;
   border: none;
@@ -155,7 +157,8 @@ html
   , .vector-menu-tabs-legacy li
   , body.fandommobile-fandom-theme, .NavHead
   , ul.forums, .button
-  , .top-Stage_Container {
+  , .top-Stage_Container
+  , .btn, .overview-card-wrapper.white {
 	background-image: none !important;
 }
 body
@@ -198,7 +201,8 @@ header[position*="fixed"], nav:has(ul):not(:has(div > ul))
   , .menu
   , .ui__header
   , .d-header
-  , .gnb-bar {
+  , .gnb-bar
+  , .dOwGnZ {
   backdrop-filter: blur(32px);
 }
 .backdrop-blur-xl, #headlessui-dialog-\:r0\:
@@ -248,11 +252,11 @@ body:lang(ar), html:lang(ar) {
 
 /* ꞁȷ̀ɔ ſ͕ɭᴎɹƽ */
 body, form > button, aside:not(#affiliate-disclaimer):not(.article-footer):not([class*="sidebar"]), ul:not(li ul):not(section ul) > li:not(.relative)
-  , .mw-parser-output .side-box, .cdx-card, .mw-pt-languages, .recirculation-prefooter__wiki-articles, .vector-menu-content, .mw-parser-output .hatnote, .citizen-body-container, #bodyContent, .toc div
+  , .mw-parser-output .side-box, .cdx-card, .mw-pt-languages, .recirculation-prefooter__wiki-articles, .vector-menu-content, .mw-parser-output .hatnote, .citizen-body-container, #bodyContent, .toc div, .pre-content
   , .eMIcVK, .jtELKP, .MQiBs, .kfOjYx, .cPhYjp, .dtCxyf, .cIqsGr, .hoxHPD, .icJrpU, .crImAf
   , .mobile-main-page h2
   , .page-wrap > .wrapper, .basRow
-  , .article footer, .article header, .article section.content-wrapper, .news-article footer, .news-article header, .news-article section.content-wrapper, .news-article.full-width-image footer, .news-article.full-width-image header, .review-article footer, .review-article header, .review-article section.content-wrapper, .static-article footer, .static-article header, .static-article section.content-wrapper, .citizen-toc__header
+  , .article footer, .article header, .article section.content-wrapper, .news-article footer, .news-article header, .news-article section.content-wrapper, .news-article.full-width-image footer, .news-article.full-width-image header, .review-article footer, .review-article header, .review-article section.content-wrapper, .static-article footer, .static-article header, .static-article section.content-wrapper, .citizen-toc__header, .post-content
   , .mx-auto:not(section):not(article)
   , .topic-list
   , .row.header .row
@@ -273,8 +277,8 @@ body.skin--responsive .mw-parser-output .infobox tbody > tr > td, body.skin--res
   , .minerva-header .branding-box a span {
 	margin: 8px !important;	
 }
-form:not(.minerva-search-form), aside:not(div aside):not(nav aside)
-  , .mw-ui-button:not(.mw-ui-icon-element), li.page-summary, .content li:not(ul li), .content .mw-parser-output h4
+form:not(li form):not(.minerva-search-form), aside:not(div aside):not(nav aside)
+  , .mw-ui-button:not(.mw-ui-icon-element), li.page-summary, .content li:not(ul li)
   , .jBtNat, .kCVCfQ
   , .zcm-wrap-wrap, .related-searches, #more-results
   , .article-footer
@@ -309,14 +313,15 @@ ul li, article table
   , .sidebar em, .top-navigation .top-navigation-wrap {
 	margin-inline: 8px !important;
 }
-h2:not(section h2)
+body, h2:not(section h2), nav[aria-label="Main"]
   , .pi-expand-button
   , .content .mw-parser-output .mw-editsection .cdx-button, .content .mw-parser-output h1, .content .mw-parser-output h2, .content .mw-parser-output h5, .content .mw-parser-output h6, .content .mw-parser-output .mw-headline
   , .dofSdt, .kCVCfQ
   , .mvc_filters_row
   , .top-Main_Container 
   , .scripts .row
-  , ._1JNyf, .ZKNrb {
+  , ._1JNyf, .ZKNrb
+  , .pr-4 {
   margin-inline: 16px !important;
 }
 .wrapper:has(.legacy-container)
@@ -335,7 +340,7 @@ ul li
   , .overlay-header, .minerva-header {
 	margin-block: 8px !important;
 }
-.mw-parser-output table.ambox, .entity-content p, .minerva__tab-container, .content .floatright, .NavFrame, .mw-mf-page-list li, .topic-title-list li, .site-link-list li
+.mw-parser-output table.ambox, .entity-content p, .minerva__tab-container, .content .floatright, .NavFrame, .mw-mf-page-list li, .topic-title-list li, .site-link-list li, .content .mw-parser-output h4
   , .fnvLFj, .ilLPmc, .iXcMhu, .sc-bqiRlB.cQjDCC.sc-11flsrt-0.fhCFyF, .kTMcHH
   , .lyricBody, .gaugeWrap, .billboardSlide--video
   , .maininfotophome {
@@ -351,7 +356,7 @@ ul li
   margin-top: 4pc;
 }
 body, padding, [style*="navbar"], button:has(img), ul, label, a:has(span > i)
-  , #mw-mf-page-left ul .toggle-list-item, #mw-content-text, .mw-parser-output .ombox .mbox-image, .vector-menu-tabs-legacy li, .mw-parser-output .mp-nav-button, .mw-parser-output table.ambox, article:has(.mw-body-content):not(#content), .overlay.search-overlay .overlay-title, .citizen-body-container
+  , #mw-mf-page-left ul .toggle-list-item, #mw-content-text, .mw-parser-output .ombox .mbox-image, .vector-menu-tabs-legacy li, .mw-parser-output .mp-nav-button, .mw-parser-output table.ambox, article:has(.mw-body-content):not(#content), .overlay.search-overlay .overlay-title, .citizen-body-container, .header-container
   , .eMIcVK, .gmCYiZ, .bSvmdW, .fIRxHK, .ctukLy, ._44rzf.IGory, .cYKmAe, .cGYAZz, .hyGplL, .cIqsGr, .hoxHPD
   , .mobile-main-page, .trfc-147__content, .Comment_body__Dw-zH, .article-footer, .global-footer__content, .main-wrapper .main-content
   , .header__search-wrap
@@ -366,7 +371,7 @@ body, padding, [style*="navbar"], button:has(img), ul, label, a:has(span > i)
   , .container.list-container, #main-outlet-wrapper, .container.posts, #main-container, .scripts .container, .container.small, .navigation .entries, .col-12, .row.header .row, .header.row > div
   , div.container
   , .row-cols-1 > * 
-  , ._2QawT, .ZKNrb {
+  , ._2QawT, .ZKNrb, .ZTgyU {
 	padding: 0 !important;
 }
 pre, .panel section, section section:not(.navigation-container):not(#topic)
@@ -379,7 +384,7 @@ pre, .panel section, section section:not(.navigation-container):not(#topic)
   , .topic-list .topic-list-data {
 	padding: 8px !important;
 }
-article, ul li:not(.wds-list.wds-is-linked > li):not(aside li):not(.mw-list-item):not(nav li):not(header li):not(.zcm-wrap-wrap li)
+article
   , .infobox-header, .infobox-below.noprint.selfref, li.page-summary, .content li:not(li:has(input)), .recirculation-prefooter, .mw-cookiewarning-container
   , .cpovnv, .daxSFj, .hwqvVN
   , .related-searches, .O9Ipab51rBntYb0pwOQn
@@ -452,7 +457,7 @@ body, img[width="520"], div[style*="width:412px;"]
   , #mvp-article-wrap, #mvp-article-cont, .mvp-article-wrap
   , .table
   , .gnb-right__hbg-panel
-  , ._24Wda {
+  , ._24Wda, .jxKgnI, .dOwGnZ {
   width: -moz-available !important;
   max-width: unset;
 }
@@ -494,8 +499,9 @@ blockquote
   , .container.posts > .row {
   max-width: unset !important;
 }
-.mw-parser-output .mp-section {
+.mw-parser-output .mp-section, .minerva-header {
   gap: unset !important;
+  grid-gap: unset !important;
 }
 div, form
   , .Layout-sc-1xcs6mc-0 {
@@ -532,7 +538,7 @@ input:not(form > input)
 	background-color: var(--ពិសាធី) !important;
   border: 1px solid var(--តិជាធី) !important;
 }
-nav, header
+*, nav, header
   , .vector-page-toolbar-container
   , .eMIcVK, .jtELKP, .gcZEML, .cIqsGr, .hoxHPD, .icJrpU
   , .table-wide::before
@@ -542,7 +548,8 @@ nav, header
   , .overlay.search-overlay .results, .overlay.search-overlay .search-feedback
   , .is-mobile .body--serp .header-wrap 
   , #lia-body.ForumTopicPage .lia-content .lia-quilt-row.lia-quilt-row-hero .lia-quilt-column-hero, #lia-body.ForumTopicPage .lia-content .lia-top-quilt.lia-forum-topic-page-gte-5 > .lia-quilt-row-main
-  , .white.z-depth-1, .related_box.white, .content.white {
+  , .white.z-depth-1, .related_box.white, .content.white
+  , .dOwGnZ {
 	box-shadow: none !important;
 }
 
@@ -601,7 +608,7 @@ main:not(.flex-grow)
   , [class*="topBanner_"], [class*="section_"]
   , #sidebar > div
   , .lia-quilt-layout-custom-message
-  , .portable-infobox, .I8ZkYxiBFbknlyQGkj14, .lang-list-container, .mw-parser-output .mp-box, .mw-parser-output .side-box, .infobox, body.skin--responsive .mw-parser-output .hatnote, body.skin--responsive .mw-parser-output .dablink, body.skin--responsive .mw-parser-output .rellink, .cdx-card, .mw-parser-output .ambox, .mw-parser-output .container, .mw-pt-languages, .skin-fandommobile .trfc-147, .Comment_wrapper__VysRy, .page__right-rail, .recirculation-prefooter__wiki-articles, .mw-parser-output .mp-navigation, .citizen-toc__card, .disambig-see-also, .toc:not(.ready), #catlinks
+  , .portable-infobox, .I8ZkYxiBFbknlyQGkj14, .lang-list-container, .mw-parser-output .mp-box, .mw-parser-output .side-box, .infobox, body.skin--responsive .mw-parser-output .hatnote, body.skin--responsive .mw-parser-output .dablink, body.skin--responsive .mw-parser-output .rellink, .cdx-card, .mw-parser-output .ambox, .mw-parser-output .container, .mw-pt-languages, .skin-fandommobile .trfc-147, .Comment_wrapper__VysRy, .page__right-rail, .recirculation-prefooter__wiki-articles, .mw-parser-output .mp-navigation, .citizen-toc__card, .disambig-see-also:not(section div), .toc:not(.ready), #catlinks
   , .eMIcVK, .jtELKP, .dtCxyf, .cIqsGr, .hoxHPD, .icJrpU, .crImAf
   , .related-searches, .footer__card, .js-footer-card, .O9Ipab51rBntYb0pwOQn 
   , .article-footer
@@ -629,7 +636,7 @@ main:not(.flex-grow)
 	border-radius: var(--អិត្ផេ) !important;
 	border: 1px solid var(--ពិសាធី) !important;
 	padding: 8px;
-	margin: 12px 16px;
+	margin-block: 12px;
   box-shadow: none !important;
 }
 ព៏ក្សិចា២
@@ -644,7 +651,7 @@ main:not(.flex-grow)
 	border: 1px solid var(--ពិសាធី) !important;
   box-shadow: none !important;
 }
-ចិហិ, pre, figure, iframe, blockquote, details, section section:not(.list-controls .navigation-container).row:not(:has(article)):not(.row.content), li ul li, section ol:not(section ol) > li:not(:has(article)), section > ul > li
+ចិហិ, pre, figure, iframe, blockquote, details, section section:not(.list-controls .navigation-container).row:not(:has(article)):not(.row.content), li:not(li:has(form)) ul li, section ol:not(section ol) > li:not(:has(article)), section > ul > li
   , .infobox-header, .infobox-below.noprint.selfref, li.page-summary, .content > li, .mw-parser-output .container-body, .derivedterms, .term-list, .content .floatright, .NavFrame, .mw-mf-page-list li, .topic-title-list li, .site-link-list li
   , .cpovnv, .cQjDCC
   , .uaTRv
@@ -892,7 +899,7 @@ only screen and (max-width: 760px),
 	}
 }
 @media (prefers-color-scheme: light) {
-	ចិហិ, pre, figure, iframe, blockquote, details, section section:not(.list-controls .navigation-container).row:not(:has(article)):not(.row.content), li ul li, section ol:not(section ol) > li:not(:has(article)), section > ul > li
+	ចិហិ, pre, figure, iframe, blockquote, details, section section:not(.list-controls .navigation-container).row:not(:has(article)):not(.row.content), li:not(li > form) ul li, section ol:not(section ol) > li:not(:has(article)), section > ul > li
   , .infobox-header, .infobox-below.noprint.selfref, li.page-summary, .content > li, .mw-parser-output .container-body, .derivedterms, .term-list, .content .floatright, .NavFrame, .mw-mf-page-list li, .topic-title-list li, .site-link-list li
   , .cpovnv, .cQjDCC
   , .uaTRv
@@ -911,7 +918,8 @@ only screen and (max-width: 760px),
   , .maininfotophome
   , .cooked, .d-editor-preview
   , .card, .material-card 
-  , .newsletter-form__wrapper, .--related .more-about__cardItems, .--latest .more-about__cardItems {
+  , .newsletter-form__wrapper, .--related .more-about__cardItems, .--latest .more-about__cardItems
+  , .entry-content > div {
 		background-color: var(--ខេលេសៃច្ហិ) !important;
 		border: 1px solid var(--ពិសាធី) !important;
 	}
