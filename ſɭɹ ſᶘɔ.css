@@ -114,7 +114,7 @@ html, #main, #site-main
 }
 main, header, nav, footer, section, th, tr, h2, form, td > div
   , [class*="body"], [class*="siteContent"]
-  , .input-bar, .list-grid, .top-featured .feature-block-item, .trending__wrapper, .list-text-links .listingResult
+  , .input-bar, .list-grid, .top-featured .feature-block-item, .trending__wrapper, .list-text-links .listingResult, .feature-block.top-featured .feature-block-item-wrapper
   , .content .infobox, .blDkmw, .HCkIf, .gURJVD
   , .skin-fandommobile:not(.fandommobile-fandom-theme) .article-table-wrapper table th, .mobile-global-navigation__logomark, article:has(.mw-body-content):not(#content), .vector-page-titlebar::after, .header-container.header-chrome, .overlay.search-overlay .search-content, .overlay.search-overlay .results, .overlay.search-overlay .search-feedback, .NavHead, #mw-mf-page-center, .language-overlay .overlay-content, .language-info-overlay .overlay-content, .overlay-header-container, .overlay-footer-container, .overlay .panel, .list-header, .mobile-global-navigation__left, .mobile-global-navigation__right, .vector-menu-portal .vector-menu-content, #p-personal .vector-menu-content-list, #footer, div#mw-panel nav.vector-menu-portal h3
   , .mobile-community-bar--with-background::after, main.play section.preview #play-console > span, main.play section.preview #play-console ul
@@ -284,7 +284,6 @@ form:not(li form):not(.minerva-search-form), aside:not(div aside):not(nav aside)
   , .article-footer
   , .navigation ul, .phraseTable, .flashLink
   , .nav.nav:not(nav .nav)
-  , .trending__nav
   , .shopAll_filter_container__VxWT_
   , #content li:not(ul li), #mobile li, #header:not(:has(input)), #footer, #body
   , .article-actions.show-actions .article-actions-entries > li > .button, .article-actions.show-actions .article-actions-entries > li > div > .button, .article-actions.show-actions > .button, .main-page-content, .mw-parser-output #mp-about-content, .citizen-sections-enabled .citizen-section-heading, .citizen-sections-enabled .citizen-section-collapsible > h3, .citizen-sections-enabled .citizen-section-collapsible > h4, .citizen-sections-enabled .citizen-section-collapsible > h5, .citizen-sections-enabled .citizen-section-collapsible > h6
@@ -313,7 +312,7 @@ ul li, article table
   , .sidebar em, .top-navigation .top-navigation-wrap {
 	margin-inline: 8px !important;
 }
-body, h2:not(section h2), nav[aria-label="Main"]
+body, nav[aria-label="Main"]
   , .pi-expand-button
   , .content .mw-parser-output .mw-editsection .cdx-button, .content .mw-parser-output h1, .content .mw-parser-output h2, .content .mw-parser-output h5, .content .mw-parser-output h6, .content .mw-parser-output .mw-headline
   , .dofSdt, .kCVCfQ
@@ -343,7 +342,8 @@ ul li
 .mw-parser-output table.ambox, .entity-content p, .minerva__tab-container, .content .floatright, .NavFrame, .mw-mf-page-list li, .topic-title-list li, .site-link-list li, .content .mw-parser-output h4
   , .fnvLFj, .ilLPmc, .iXcMhu, .sc-bqiRlB.cQjDCC.sc-11flsrt-0.fhCFyF, .kTMcHH
   , .lyricBody, .gaugeWrap, .billboardSlide--video
-  , .maininfotophome {
+  , .maininfotophome
+  , .trending__nav {
 	margin-block: 12px !important;
 }
 .minerva-search-form > button {
@@ -371,7 +371,8 @@ body, padding, [style*="navbar"], button:has(img), ul, label, a:has(span > i)
   , .container.list-container, #main-outlet-wrapper, .container.posts, #main-container, .scripts .container, .container.small, .navigation .entries, .col-12, .row.header .row, .header.row > div
   , div.container
   , .row-cols-1 > * 
-  , ._2QawT, .ZKNrb, .ZTgyU {
+  , ._2QawT, .ZKNrb, .ZTgyU
+  , .py-8 {
 	padding: 0 !important;
 }
 pre, .panel section, section section:not(.navigation-container):not(#topic)
@@ -457,12 +458,12 @@ body, img[width="520"], div[style*="width:412px;"]
   , #mvp-article-wrap, #mvp-article-cont, .mvp-article-wrap
   , .table
   , .gnb-right__hbg-panel
-  , ._24Wda, .jxKgnI, .dOwGnZ {
+  , ._24Wda, .jxKgnI, .dOwGnZ
+  , newsletter-form__container {
   width: -moz-available !important;
   max-width: unset;
 }
-form > input
-  , .minerva-search-form
+.minerva-search-form
   , .iPtpxQ
   , section.place.top {
 	width: fit-content !important;
@@ -530,7 +531,8 @@ header, pre code, form > div > input, div[style*="border"], form, nav
   , .hsoOCn::before
   , #entry-wrapper
   , .context-uhf .theme-light, .c-uhfh.c-sgl-stck .cat-logo-button-cont
-  , .gnb-bar {
+  , .gnb-bar
+  , .border-gray-100 {
   border: none !important;
 }
 input:not(form > input)
@@ -636,7 +638,7 @@ main:not(.flex-grow)
 	border-radius: var(--អិត្ផេ) !important;
 	border: 1px solid var(--ពិសាធី) !important;
 	padding: 8px;
-	margin-block: 12px;
+	margin-block: 8px;
   box-shadow: none !important;
 }
 ព៏ក្សិចា២
@@ -742,7 +744,7 @@ main:not(.flex-grow)
 	background-color: var(--ជាងាធីច្ហិ) !important;
 	border-radius: var(--អិត្ផេ) !important;
   border: 1px solid var(--ពិសាធី) !important;
-	margin: 16px;
+	margin-block: 12px;
 	padding: 8px;
 	backdrop-filter: blur(32px);
   box-shadow: none !important;
