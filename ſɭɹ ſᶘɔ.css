@@ -116,7 +116,7 @@ main, header, nav, footer, section, th, tr, h2, form, td > div
   , [class*="body"], [class*="siteContent"]
   , .input-bar, .list-grid, .top-featured .feature-block-item, .trending__wrapper, .list-text-links .listingResult, .feature-block.top-featured .feature-block-item-wrapper
   , .content .infobox, .blDkmw, .HCkIf, .gURJVD
-  , .skin-fandommobile:not(.fandommobile-fandom-theme) .article-table-wrapper table th, .mobile-global-navigation__logomark, article:has(.mw-body-content):not(#content), .vector-page-titlebar::after, .header-container.header-chrome, .overlay.search-overlay .search-content, .overlay.search-overlay .results, .overlay.search-overlay .search-feedback, .NavHead, #mw-mf-page-center, .language-overlay .overlay-content, .language-info-overlay .overlay-content, .overlay-header-container, .overlay-footer-container, .overlay .panel, .list-header, .mobile-global-navigation__left, .mobile-global-navigation__right, .vector-menu-portal .vector-menu-content, #p-personal .vector-menu-content-list, #footer, div#mw-panel nav.vector-menu-portal h3
+  , .skin-fandommobile:not(.fandommobile-fandom-theme) .article-table-wrapper table th, .mobile-global-navigation__logomark, article:has(.mw-body-content):not(#content), .vector-page-titlebar::after, .header-container.header-chrome, .overlay.search-overlay .search-content, .overlay.search-overlay .results, .overlay.search-overlay .search-feedback, .NavHead, #mw-mf-page-center, .language-overlay .overlay-content, .language-info-overlay .overlay-content, .overlay-header-container, .overlay-footer-container, .overlay .panel, .list-header, .mobile-global-navigation__left, .mobile-global-navigation__right, .vector-menu-portal .vector-menu-content, #p-personal .vector-menu-content-list, #footer, div#mw-panel nav.vector-menu-portal h3, #main_page_mp-mp
   , .mobile-community-bar--with-background::after, main.play section.preview #play-console > span, main.play section.preview #play-console ul
   , .button-wrap
   , .Main
@@ -147,7 +147,8 @@ main, header, nav, footer, section, th, tr, h2, form, td > div
   , .inner_column
   , .mdl, .gnb-bar
   , .site-wrapper, .js-site-wrapper
-  , .from-gray-50-to-white, .from-gray-50-to-white:hover {
+  , .from-gray-50-to-white, .from-gray-50-to-white:hover
+  , .eqTgHW {
 	background: none;
 	background-color: transparent !important;
   border: none;
@@ -189,7 +190,6 @@ hr, div:empty:not(.burger)
 header[position*="fixed"], nav:has(ul):not(:has(div > ul))
   , [role*="banner"]
   , .overlay.search-overlay, li.page-summary, .search-results-view, #mw-mf-page-left, .citizen-header
-  , .HCkIf, .jEIoqd, .hmnRtY, .giatpY
   , #outdated_banner, ._2YLMk, ._1lIBi, ._37Gta
   , .VLoccc, .JzO0Vc, .fkkSmj
   , .container:not(:has(.d-flex)):not(nav .container), .article-actions, .top-navigation .container
@@ -228,7 +228,8 @@ a {
   color: var(--កេភ២) !important;
   font-family: "ʃɹ ı],ɔ ꞁȷ̀ɔ ꞁȷ̀ɹ ſɭˬꞇᴜ";
 }
-.pageHead {
+h1
+  , .pageHead {
 	text-align: center;
 }
 table:lang(ja)
@@ -279,15 +280,14 @@ body.skin--responsive .mw-parser-output .infobox tbody > tr > td, body.skin--res
 }
 form:not(li form):not(.minerva-search-form), aside:not(div aside):not(nav aside)
   , .mw-ui-button:not(.mw-ui-icon-element), li.page-summary, .content li:not(ul li)
-  , .jBtNat, .kCVCfQ
+  , .jBtNat
   , .zcm-wrap-wrap, .related-searches, #more-results
   , .article-footer
   , .navigation ul, .phraseTable, .flashLink
-  , .nav.nav:not(nav .nav)
   , .shopAll_filter_container__VxWT_
   , #content li:not(ul li), #mobile li, #header:not(:has(input)), #footer, #body
   , .article-actions.show-actions .article-actions-entries > li > .button, .article-actions.show-actions .article-actions-entries > li > div > .button, .article-actions.show-actions > .button, .main-page-content, .mw-parser-output #mp-about-content, .citizen-sections-enabled .citizen-section-heading, .citizen-sections-enabled .citizen-section-collapsible > h3, .citizen-sections-enabled .citizen-section-collapsible > h4, .citizen-sections-enabled .citizen-section-collapsible > h5, .citizen-sections-enabled .citizen-section-collapsible > h6
-  , .user-table, .badge-card, ul.general, .boxed.white, .alert.alert-info, .body-page, .topic-list tbody tr:nth-of-type(2n), .category-list, .category-list tbody tr:nth-of-type(2n), .search-container, .search-advanced-options, .user-stream-item.item, tr.topic-list-item-separator + .topic-list-item + .topic-list-item, .category-boxes .category-box-inner, .category-boxes-with-topics .category-box-inner, .top-lists, .topic-list-bottom, .full-width > ul.nav.nav-pills, #banner, .latest-topic-list-item:nth-of-type(2n+1), .latest-topic-list, .offset2 .cooked, .post-links-container, #user-card .card-content, .user-nav, .user-main .staff-counters
+  , .user-table, .badge-card, ul.general, .boxed.white, .alert.alert-info, .body-page, .topic-list tbody tr:nth-of-type(2n), .category-list, .category-list tbody tr:nth-of-type(2n), .search-container, .search-advanced-options, .user-stream-item.item, tr.topic-list-item-separator + .topic-list-item + .topic-list-item, .category-boxes .category-box-inner, .category-boxes-with-topics .category-box-inner, .top-lists, .topic-list-bottom, .full-width > ul.nav.nav-pills, .latest-topic-list-item:nth-of-type(2n+1), .latest-topic-list, .offset2 .cooked, .post-links-container, #user-card .card-content, .user-nav, .user-main .staff-counters
   , #topContainer, #middleContainer {
 	margin: 12px 16px !important;
 }
@@ -315,7 +315,6 @@ ul li, article table
 body, nav[aria-label="Main"]
   , .pi-expand-button
   , .content .mw-parser-output .mw-editsection .cdx-button, .content .mw-parser-output h1, .content .mw-parser-output h2, .content .mw-parser-output h5, .content .mw-parser-output h6, .content .mw-parser-output .mw-headline
-  , .dofSdt, .kCVCfQ
   , .mvc_filters_row
   , .top-Main_Container 
   , .scripts .row
@@ -355,9 +354,9 @@ ul li
   , #leftmenuinner {
   margin-top: 4pc;
 }
-body, padding, [style*="navbar"], button:has(img), ul, label, a:has(span > i)
+body, padding, [style*="navbar"], button:has(img), ul, label, a:has(span > i), main, nav
   , #mw-mf-page-left ul .toggle-list-item, #mw-content-text, .mw-parser-output .ombox .mbox-image, .vector-menu-tabs-legacy li, .mw-parser-output .mp-nav-button, .mw-parser-output table.ambox, article:has(.mw-body-content):not(#content), .overlay.search-overlay .overlay-title, .citizen-body-container, .header-container
-  , .eMIcVK, .gmCYiZ, .bSvmdW, .fIRxHK, .ctukLy, ._44rzf.IGory, .cYKmAe, .cGYAZz, .hyGplL, .cIqsGr, .hoxHPD
+  , .eMIcVK, .gmCYiZ, .bSvmdW, .fIRxHK, .ctukLy, ._44rzf.IGory, .cYKmAe, .cGYAZz, .hyGplL, .cIqsGr, .hoxHPD, .cHRNwC, .inpKHL
   , .mobile-main-page, .trfc-147__content, .Comment_body__Dw-zH, .article-footer, .global-footer__content, .main-wrapper .main-content
   , .header__search-wrap
   , .td-container, .tdc-row, .tdc-row-composer
@@ -390,8 +389,7 @@ article
   , .cpovnv, .daxSFj, .hwqvVN
   , .related-searches, .O9Ipab51rBntYb0pwOQn
   , .article-footer
-  , .break-words.flex.flex-col.markdown.gap-2.leading-\[1\.5\].undefined.svelte-4jghnb
-  , .row:not(.container.posts > .row):not(.scripts .row):not(.content):not(.row.header .row):not(:has(.container)):not(:has(#banner)):not(.topic-post .row):not(section .row), .cooked, .d-editor-preview {
+  , .break-words.flex.flex-col.markdown.gap-2.leading-\[1\.5\].undefined.svelte-4jghnb {
 	padding: 16px !important;
 }
 .search-box .search {
@@ -553,6 +551,9 @@ input:not(form > input)
   , .white.z-depth-1, .related_box.white, .content.white
   , .dOwGnZ {
 	box-shadow: none !important;
+}
+* {
+  text-shadow: none !important;
 }
 
 /* ſᶘɹ ɭʃᴜ */
@@ -821,7 +822,7 @@ button:not(:has(button)):not([action="/start"] > button):hover, input:not(form >
   color: var(--កេភ) !important;
 }
 
-ចាជិល, table:not(form table):not(table table) {
+ចាជិល, table:not(form table):not(table table):not(#main_page_mp-mp) {
 	background-color: var(--ជាងាធី) !important;
   border-radius: var(--អិត្ផេ) !important;
   border: 1px solid var(--ពិសាធី) !important;
@@ -837,7 +838,7 @@ button:not(:has(button)):not([action="/start"] > button):hover, input:not(form >
   color: var(--កេភ) !important;
   padding: 8px;
 }
-td:empty, !td /td {
+td:empty {
   visibility: collapse;
   width: 0;
   height: 0;

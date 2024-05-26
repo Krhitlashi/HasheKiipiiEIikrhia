@@ -25,7 +25,8 @@
 	--អិត្ផេចិ: 20px 4px;
 	--អិត្ផេមិ: 16px 8px;
 	--អិត្ផេមិចិ: 12px 4px;
-}@media (prefers-color-scheme: light) {
+}
+@media (prefers-color-scheme: light) {
 	:root {
 		--ខេលេសៃ: #fff;
 		--ខេលេសៃច្ហិ: #ffffffc0;
@@ -49,14 +50,24 @@
 	}
 }
 
-body {
-	background-color: var(--ខេលេសៃ);
+:root {
+	--selection-bgColor: highlight !important;
+}
+
+html {
+	background-color: var(--ខេលេសៃ) !important;
 	color: var(--កេភ);
 }
-.ml-3 {
-	margin-left: 0 !important
+body{
+	margin-inline: 16px;
 }
-.px-3 {
+#repository-container-header {
+	margin: 0 !important;
+}
+.ml-3 {
+	margin-left: 0 !important;
+}
+.px-3, .p-responsive {
 	padding: 0 !important;
 }
 
@@ -91,11 +102,13 @@ body {
 .mr-lg-3.color-fg-inherit.flex-order-2 {
 	width: 0;
 }
+.input-contrast {
+	background-color: var(--ជាងាធី);
+	border: 1px solid var(--ពិសាធី);
+	border-radius: var(--អិត្ផេមិ);
+  }
 
 /* j͑ʃɜ j͐ʃƨɹ */
-.izjvBm {
-	margin-inline: 16px !important;
-}
 
 /* ſ̀ȷᴜ */
 .etbdbe, .position-relative.js-check-all-container, .timeline-comment {
@@ -116,14 +129,13 @@ body {
   	border: 1px solid var(--តិជាធី) !important;
   	border-radius: var(--អិត្ផេមិ) !important;
 }
-.hjyGFR, .timeline-comment-header {
+.hjyGFR, .timeline-comment-header, .Box-header {
 	background-color: transparent;
 	border: none !important;
 }
 .Box {
 	background-color: var(--ជាងាធី);
   	padding: 16px;
-  	margin: 12px 16px;
   	border-radius: var(--អិត្ផេ);
   	border: 1px solid var(--ពិសាធី);
 }
@@ -139,6 +151,9 @@ body {
   	margin: 12px 0 !important;
   	border-radius: var(--អិត្ផេចិ) !important;
   	border: 1px solid var(--តិជាធី) !important;
+}
+.Box-row--focus-gray.navigation-focus {
+	background-color: var(--តិជាធី) !important;
 }
 .table-list-header {
 	background-color: transparent !important;
@@ -157,14 +172,14 @@ body {
 }
 
 /* ſןɔ˞ᴜƴ */
-.eChYOE {
+.iGmlUb, .eChYOE {
 	margin: 0 !important;
   	max-width: -moz-available !important;
 	background-color: var(--ជាងាធី);
   	border-radius: var(--អិត្ផេ);
   	border: 1px solid var(--ពិសាធី);
 }
-.jEOdLx {
+.jEOdLx, .iRQGXA {
 	background-color: transparent;
   	border: none;
 	backdrop-filter: blur(32px);
@@ -191,8 +206,6 @@ body {
 
 .about-margin {
 	max-width: -moz-available;
-    	margin: 16px;
-    	width: calc(100% - 32px);
 }
 .BorderGrid-cell {
 	background-color: var(--ជាងាធី);
@@ -209,7 +222,7 @@ body {
 
 
 /* ſɟᴜ ſᶘɹ }ʃᴜ */
-.btn {
+.btn, .subnav-item, .gBsjGI, .fruYDV {
 	background-color: var(--ជាងាធី);
   	border-radius: var(--អិត្ផេមិ);
   	border: 1px solid var(--ពិសាធី);
