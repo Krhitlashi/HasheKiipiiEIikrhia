@@ -190,7 +190,7 @@ hr, div:empty:not(.burger)
 header[position*="fixed"], nav:has(ul):not(:has(div > ul))
   , [role*="banner"]
   , .overlay.search-overlay, li.page-summary, .search-results-view, #mw-mf-page-left, .citizen-header
-  , #outdated_banner, ._2YLMk, ._1lIBi, ._37Gta
+  , #outdated_banner, ._2YLMk, ._1lIBi, ._37Gta, .hSEYlg
   , .VLoccc, .JzO0Vc, .fkkSmj
   , .container:not(:has(.d-flex)):not(nav .container), .article-actions, .top-navigation .container
   , .mobile-global-navigation__community-bar-wrapper
@@ -399,7 +399,8 @@ article
   padding: 8px 16px !important;
 }
 .wrap > .container, .panel-body
-  , .row > .container {
+  , .row > .container
+  , .hCBhjr, .hGVSIy {
 	padding-inline: 0 !important;
 }
 .article-actions.show-actions {
@@ -612,7 +613,7 @@ main:not(.flex-grow)
   , #sidebar > div
   , .lia-quilt-layout-custom-message
   , .portable-infobox, .I8ZkYxiBFbknlyQGkj14, .lang-list-container, .mw-parser-output .mp-box, .mw-parser-output .side-box, .infobox, body.skin--responsive .mw-parser-output .hatnote, body.skin--responsive .mw-parser-output .dablink, body.skin--responsive .mw-parser-output .rellink, .cdx-card, .mw-parser-output .ambox, .mw-parser-output .container, .mw-pt-languages, .skin-fandommobile .trfc-147, .Comment_wrapper__VysRy, .page__right-rail, .recirculation-prefooter__wiki-articles, .mw-parser-output .mp-navigation, .citizen-toc__card, .disambig-see-also:not(section div), .toc:not(.ready), #catlinks
-  , .eMIcVK, .jtELKP, .dtCxyf, .cIqsGr, .hoxHPD, .icJrpU, .crImAf
+  , .eMIcVK, .jtELKP, .dtCxyf, .cIqsGr, .hoxHPD, .icJrpU, .crImAf, .eZlwsk
   , .related-searches, .footer__card, .js-footer-card, .O9Ipab51rBntYb0pwOQn 
   , .article-footer
   , .container:not(.list-container):not(section .container) > .row:not(:has(article)).row:not(:has(nav))
