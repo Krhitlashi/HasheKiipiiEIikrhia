@@ -245,7 +245,7 @@ section:lang(ja)
   writing-mode: vertical-rl;
   overflow-x: scroll;
   overflow-y: hidden;
-  max-width: calc(100% - 48px);
+  max-width: 100%;
 }
 body:lang(ar), html:lang(ar) {
   direction: rtl;
@@ -609,7 +609,7 @@ main:not(.flex-grow)
 
 
 /* ſ͔ɭɔ j͐ʃɔ j͑ʃᴜꞇ */
-ព៏ក្សិចា, article, aside:not(nav aside), section:not(article section):not(:has(article)):not(aside section):not(.panel section):not(section section):not(:empty):not(#main):not(.master-main.row):not([role*="dialog"] section), form:has(pre)
+ព៏ក្សិចា, article, aside:not(nav aside), section:not(article section):not(:has(article)):not(aside section):not(.panel section):not(section section):not(:empty):not(#main):not(.master-main.row):not([role*="dialog"] section):not(.content section), form:has(pre)
   , [class*="topBanner_"], [class*="section_"]
   , #sidebar > div
   , .lia-quilt-layout-custom-message
@@ -645,6 +645,7 @@ main:not(.flex-grow)
   box-shadow: none !important;
 }
 ព៏ក្សិចា២
+  , .content section
   , ._--_-___Lk, ._--_-___5k, ._--_-___5c
   , .hkaYYo, .gjQPbG, .ihRjLB
   , .bg-token-main-surface-primary
