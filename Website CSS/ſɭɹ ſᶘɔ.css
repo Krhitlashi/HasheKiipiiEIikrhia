@@ -112,7 +112,7 @@ html, #main, #site-main
   background-color: var(--ខេលេសៃ) !important;
 	border: none;
 }
-main, header, nav, footer, section, th, tr, h2, form, td > div
+main, header, footer, section, th, tr, h2, form, td > div
   , [class*="body"], [class*="siteContent"]
   , .input-bar, .list-grid, .top-featured .feature-block-item, .trending__wrapper, .list-text-links .listingResult, .feature-block.top-featured .feature-block-item-wrapper
   , .content .infobox, .blDkmw, .HCkIf, .gURJVD
@@ -148,7 +148,9 @@ main, header, nav, footer, section, th, tr, h2, form, td > div
   , .mdl, .gnb-bar
   , .site-wrapper, .js-site-wrapper
   , .from-gray-50-to-white, .from-gray-50-to-white:hover
-  , .eqTgHW, .jVmowx {
+  , .eqTgHW, .jVmowx
+  , .aside-box, .project-details-box .file-card
+  , .layout {
 	background: none;
 	background-color: transparent !important;
   border: none;
@@ -187,7 +189,7 @@ hr, div:empty:not(.burger)
   width: 0 !important;
 }
 
-header[position*="fixed"], nav:has(ul):not(:has(div > ul))
+header[position*="fixed"], nav:has(ul):not(:has(div > ul)), header
   , [role*="banner"]
   , .overlay.search-overlay, li.page-summary, .search-results-view, #mw-mf-page-left, .citizen-header
   , #outdated_banner, ._2YLMk, ._1lIBi, ._37Gta, .hSEYlg
@@ -371,7 +373,8 @@ body, padding, [style*="navbar"], button:has(img), ul, label, a:has(span > i), m
   , div.container
   , .row-cols-1 > * 
   , ._2QawT, .ZKNrb, .ZTgyU
-  , .py-8 {
+  , .py-8
+  , .normal-page {
 	padding: 0 !important;
 }
 pre, .panel section, section section:not(.navigation-container):not(#topic)
@@ -641,7 +644,7 @@ main:not(.flex-grow)
 	border-radius: var(--អិត្ផេ) !important;
 	border: 1px solid var(--ពិសាធី) !important;
 	padding: 8px;
-	margin-block: 8px;
+	margin-block: 4px;
   box-shadow: none !important;
 }
 ព៏ក្សិចា២
@@ -677,7 +680,8 @@ main:not(.flex-grow)
   , .cooked, .d-editor-preview
   , .card, .material-card 
   , .newsletter-form__wrapper, .--related .more-about__cardItems, .--latest .more-about__cardItems
-  , .entry-content > div {
+  , .entry-content > div
+  , .base-card, .navigation-card, .universal-card {
 	background-color: var(--ពិសាធី) !important;
 	border-radius: var(--អិត្ផេចិ) !important;
 	border: 1px solid var(--តិជាធី) !important;
@@ -834,7 +838,7 @@ button:not(:has(button)):not([action="/start"] > button):hover, input:not(form >
   word-break: break-word;
   empty-cells: hide;
 }
-យ៏ចាជិល, td:not(:empty):not(:has(table)):not(:has(input)) {
+យ៏ចាជិល, td:not(:empty):not(:has(table)):not(:has(input)):not(#main_page_mp-mp td) {
 	background-color: var(--ពិសាធី) !important;
 	border: 1px solid var(--តិជាធី) !important;
   border-radius: var(--អិត្ផេចិ) !important;
@@ -925,7 +929,8 @@ only screen and (max-width: 760px),
   , .cooked, .d-editor-preview
   , .card, .material-card 
   , .newsletter-form__wrapper, .--related .more-about__cardItems, .--latest .more-about__cardItems
-  , .entry-content > div {
+  , .entry-content > div
+  , .base-card, .navigation-card, .universal-card {
 		background-color: var(--ខេលេសៃច្ហិ) !important;
 		border: 1px solid var(--ពិសាធី) !important;
 	}
