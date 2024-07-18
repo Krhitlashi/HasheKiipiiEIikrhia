@@ -189,7 +189,7 @@ hr, div:empty:not(.burger)
   width: 0 !important;
 }
 
-header[position*="fixed"], nav:has(ul):not(:has(div > ul)), header
+header[position*="fixed"], nav:has(ul):not(:has(div > ul))
   , [role*="banner"]
   , .overlay.search-overlay, li.page-summary, .search-results-view, #mw-mf-page-left, .citizen-header
   , #outdated_banner, ._2YLMk, ._1lIBi, ._37Gta, .hSEYlg
@@ -332,7 +332,7 @@ body, nav[aria-label="Main"]
   , #sidenav a {
 	margin-block: 4px !important;
 }
-ul li
+ul li, section
   , .basRow
   , .row
   , .flex.flex-row.gap-2.items-center
@@ -384,7 +384,8 @@ pre, .panel section, section section:not(.navigation-container):not(#topic)
   , .entity-content p, .rich-text-editor__content .ProseMirror p
   , .s-sidebarwidget .s-sidebarwidget--item
   , #content li:not(ul li), #mobile li
-  , .topic-list .topic-list-data {
+  , .topic-list .topic-list-data
+  , .newsletter-form__wrapper {
 	padding: 8px !important;
 }
 article
@@ -461,7 +462,7 @@ body, img[width="520"], div[style*="width:412px;"]
   , .table
   , .gnb-right__hbg-panel
   , ._24Wda, .jxKgnI, .dOwGnZ
-  , newsletter-form__container {
+  , .newsletter-form__container, .newsletter-form__wrapper {
   width: -moz-available !important;
   max-width: unset;
 }
@@ -475,6 +476,9 @@ body, img[width="520"], div[style*="width:412px;"]
 }
 .mobile-search-modal {
   height: 88% !important;
+}
+span > svg {
+  height: 100% !important;
 }
 .CrossSearch-button
   , .citizen-header
@@ -660,7 +664,7 @@ main:not(.flex-grow)
 	border: 1px solid var(--ពិសាធី) !important;
   box-shadow: none !important;
 }
-ចិហិ, pre, figure, iframe, blockquote, details, section section:not(.list-controls .navigation-container).row:not(:has(article)):not(.row.content), li:not(li:has(form)) ul li, section ol:not(section ol) > li:not(:has(article)), section > ul > li
+ចិហិ, pre, figure, iframe, blockquote, details, section section:not(.list-controls .navigation-container).row:not(:has(article)):not(.row.content), li:not(li:has(form)) ul li:not(:has([role="link"])), section ol:not(section ol) > li:not(:has(article)), section > ul > li
   , .infobox-header, .infobox-below.noprint.selfref, li.page-summary, .content > li, .mw-parser-output .container-body, .derivedterms, .term-list, .content .floatright, .NavFrame, .mw-mf-page-list li, .topic-title-list li, .site-link-list li
   , .cpovnv, .cQjDCC
   , .uaTRv
@@ -699,7 +703,6 @@ main:not(.flex-grow)
 	background-color: var(--ជាងាធី) !important;
   border-radius: var(--អិត្ផេមិ);
   border: 1px solid var(--ពិសាធី) !important;
-  padding: 8px 16px !important;
 }
 សុហ្រា២, nav#header
   , .fandom-sticky-header, .mw-body-header
@@ -734,7 +737,7 @@ main:not(.flex-grow)
 	backdrop-filter: blur(32px);
 	width: -moz-available !important;
 }
-និតាសេ, [role="dialog"], nav:not(header nav):not(aside nav):not(nav nav):not(#p-views):not(._1JNyf) > div:not(.actions):not(.container)
+និតាសេ, [role="dialog"], nav:not(header nav):not(aside nav):not(nav nav):not(#p-views):not(._1JNyf) > div:not(.actions):not(.container):not(.wrapper)
   , .skin-vector .uls-menu, .toc.ready
   , .overlay
   , .JzO0Vc
@@ -909,7 +912,7 @@ only screen and (max-width: 760px),
 	}
 }
 @media (prefers-color-scheme: light) {
-	ចិហិ, pre, figure, iframe, blockquote, details, section section:not(.list-controls .navigation-container).row:not(:has(article)):not(.row.content), li:not(li > form) ul li, section ol:not(section ol) > li:not(:has(article)), section > ul > li
+  ចិហិ, pre, figure, iframe, blockquote, details, section section:not(.list-controls .navigation-container).row:not(:has(article)):not(.row.content), li:not(li:has(form)) ul li:not(:has([role="link"])), section ol:not(section ol) > li:not(:has(article)), section > ul > li
   , .infobox-header, .infobox-below.noprint.selfref, li.page-summary, .content > li, .mw-parser-output .container-body, .derivedterms, .term-list, .content .floatright, .NavFrame, .mw-mf-page-list li, .topic-title-list li, .site-link-list li
   , .cpovnv, .cQjDCC
   , .uaTRv
