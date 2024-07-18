@@ -150,7 +150,8 @@ main, header, footer, section, th, tr, h2, form, td > div
   , .from-gray-50-to-white, .from-gray-50-to-white:hover
   , .eqTgHW, .jVmowx
   , .aside-box, .project-details-box .file-card
-  , .layout {
+  , .layout
+  , [style*="mobile-homepage"], .is-link-style-exp .header-wrap {
 	background: none;
 	background-color: transparent !important;
   border: none;
@@ -282,7 +283,7 @@ body.skin--responsive .mw-parser-output .infobox tbody > tr > td, body.skin--res
   , .minerva-header .branding-box a span {
 	margin: 8px !important;	
 }
-form:not(li form):not(.minerva-search-form), aside:not(div aside):not(nav aside)
+aside:not(div aside):not(nav aside)
   , .mw-ui-button:not(.mw-ui-icon-element), li.page-summary, .content li:not(ul li)
   , .jBtNat
   , .zcm-wrap-wrap, .related-searches, #more-results
@@ -295,7 +296,7 @@ form:not(li form):not(.minerva-search-form), aside:not(div aside):not(nav aside)
   , #topContainer, #middleContainer {
 	margin: 12px 16px !important;
 }
-ul li, article table
+article table
   , .portable-infobox, blockquote, .I8ZkYxiBFbknlyQGkj14, .article-table-wrapper, .pi-expand-button, .Comment_wrapper__VysRy
   , body.skin--responsive .mw-parser-output .dablink, body.skin--responsive .mw-parser-output .rellink, .mw-parser-output ol, .mw-parser-output ul
   , .skin-fandommobile .trfc-147
@@ -319,7 +320,6 @@ ul li, article table
 body, nav[aria-label="Main"]
   , .pi-expand-button
   , .content .mw-parser-output .mw-editsection .cdx-button, .content .mw-parser-output h1, .content .mw-parser-output h2, .content .mw-parser-output h5, .content .mw-parser-output h6, .content .mw-parser-output .mw-headline
-  , .mvc_filters_row
   , .top-Main_Container 
   , .scripts .row
   , ._1JNyf, .ZKNrb
@@ -438,8 +438,12 @@ body
 }
 .mw-ui-input-inline
   , .grd
-  , img[style*="width:412px;"], a[style*="width:412px;"] {
+  , img[style*="width:412px;"], a[style*="width:412px;"]
+  , .is-mobile .body--serp .header .header__shrink-beyond-min-size {
   width: 100% !important;
+}
+.overlay-header .overlay-title {
+  width: calc(100% - 64px) !important;
 }
 .collapsible-menu .title
   , #topContainer, #middleContainer, #bottom, #news {
@@ -548,8 +552,7 @@ header, pre code, form > div > input, div[style*="border"], form, nav
   , .border-gray-100 {
   border: none !important;
 }
-input:not(form > input)
-  , .infobox-above.above, .infobox-subheader {
+.infobox-above.above, .infobox-subheader {
 	background-color: var(--ពិសាធី) !important;
   border: 1px solid var(--តិជាធី) !important;
 }
@@ -610,7 +613,7 @@ input:not(form > input)
 }
 main:not(.flex-grow)
   , #body
-  , .mw-parser-output .mp-navigation
+  , .mw-parser-output .mp-navigation, .bodySearchWrap
   , .hNl9my
   , #sidebar_primary {
   flex-direction: column !important;
@@ -786,7 +789,7 @@ main:not(.flex-grow)
 	backdrop-filter: blur(32px);
 }
 
-ចាត្សិនា, button:not(:has(button)):not([action="/start"] > button):not(button:has(svg):not(.relative):not(.mobile-global-navigation__button.wds-button):not([data-tag*="like-button"]):not([data-tag*="share-post-icon"]):not([data-tag*="locked-page-button"]):not([data-tag*="search"]):not([data-tag*="show-all"]):not(.dvNIcM)):not([class*="backdrop"]), input:not(#search_form_input)
+ចាត្សិនា, button:not(:has(button)):not([action="/start"] > button):not(button:has(svg):not(.relative):not(.mobile-global-navigation__button.wds-button):not([data-tag*="like-button"]):not([data-tag*="share-post-icon"]):not([data-tag*="locked-page-button"]):not([data-tag*="search"]):not([data-tag*="show-all"]):not(.dvNIcM)):not([class*="backdrop"]), input
   , [type*="button"]:not([class*="backdrop"]), [type="reset"], [type="submit"]:not([action="/start"] > button), [role="link"], [type="search"], [type="email"]
   , [class*="button"]:not(span):not(div):not(#top-nav-bar a):not(:has(button)):not(:has([class*="button"])):not([class*="dropdown"]), a[class*="Button"], [class="tag"]
   , [role*="button"]:not(h2):not(#top-nav-bar a):not(.mw-headline):not(:has(button))
@@ -822,8 +825,7 @@ main:not(.flex-grow)
   , .dvNIcM, .cljpju, .eDUwIL, .djOudb, .fnvLFj, .efmlpp, .eBEKxV, .kgcqHd
   , .x48yz
   , .s-topbar .s-topbar--item.s-topbar--item__unset, .s-btn.s-btn__outlined
-  , #subtopnav a.active, #sidenav a.active
-  , .menu a {
+  , #subtopnav a.active, #sidenav a.active {
  	background-color: var(--ពិសាធី) !important;
 	border-radius: var(--អិត្ផេមិចិ) !important;
  	border: 1px solid var(--តិជាធី) !important;
