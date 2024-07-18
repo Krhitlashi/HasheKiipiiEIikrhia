@@ -181,7 +181,8 @@ hr, div:empty:not(.burger)
   , #credential_picker_container
   , .hawk-nest
   , .toc.closed
-  , .sc-dlVxhl.fdqpSt.sc-fIosxK.bJzTFf {
+  , .sc-dlVxhl.fdqpSt.sc-fIosxK.bJzTFf
+  , .h3nfre, .A37UZe, .JyJRXe {
 	visibility: collapse;
   margin: 0 !important;
   padding: 0 !important;
@@ -269,7 +270,8 @@ body, form > button, aside:not(#affiliate-disclaimer):not(.article-footer):not([
   , #topic-progress .nums
   , .ocpAlert
   , .sticky-nav:not(.left-rail-nav)
-  , .header .main-nav {
+  , .header .main-nav
+  , .E2UJ5 {
 	margin: 0 !important;
 }
 body.skin--responsive .mw-parser-output .infobox tbody > tr > td, body.skin--responsive .mw-parser-output .infobox tbody > tr > th
@@ -811,6 +813,9 @@ main:not(.flex-grow)
 	border: 1px solid var(--តិជាធី) !important;
   padding: 8px;
   box-shadow: none !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 ចាត្សិនា២, select
   , .oo-ui-buttonElement-button, #citizen-toc__buttonCheckbox, .client-js .citizen-ve-edit-merged#ca-ve-edit > a, .client-js .citizen-ve-edit-merged#ca-edit > a
@@ -852,8 +857,7 @@ button:not(:has(button)):not([action="/start"] > button):hover, input:not(form >
   color: var(--កេភ) !important;
   padding: 8px;
 }
-td:empty
-  , .A37UZe,  {
+td:empty {
   visibility: collapse;
   width: 0;
   height: 0;
