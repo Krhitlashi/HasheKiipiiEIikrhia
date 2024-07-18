@@ -353,7 +353,8 @@ ul li, section
 .gTqRpn
   , #guide
   , .left-sidebar, .js-pinned-left-sidebar
-  , #leftmenuinner {
+  , #leftmenuinner
+  , .yxgWrb {
   margin-top: 4pc;
 }
 body, padding, [style*="navbar"], button:has(img), ul, label, a:has(span > i), main, nav
@@ -429,6 +430,9 @@ body
   right: auto !important;
   top: auto !important;
   bottom: auto !important;
+}
+.E2UJ5, .b7AJhc {
+  min-width: unset !important;
 }
 .mw-ui-input-inline
   , .grd
@@ -848,7 +852,8 @@ button:not(:has(button)):not([action="/start"] > button):hover, input:not(form >
   color: var(--កេភ) !important;
   padding: 8px;
 }
-td:empty {
+td:empty
+  , .A37UZe,  {
   visibility: collapse;
   width: 0;
   height: 0;
